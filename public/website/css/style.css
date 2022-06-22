@@ -1,0 +1,607 @@
+body
+{	
+  margin:0px;
+  padding: 0px;
+  background-image: url(../images/image1.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  font-family: 'Poppins' !important;    
+  height: 100vh;                                                                                                                                                   
+}
+.pad-top-10 {
+    padding-top: 10px !important
+}
+.pad-top-20 {
+    padding-top: 20px !important
+}
+.pad-top-30 {
+    padding-top: 30px !important
+}
+.pad-top-40 {
+    padding-top: 40px !important
+}
+.pad-top-50 {
+    padding-top: 50px !important
+}
+.pad-top-60 {
+    padding-top: 60px !important
+}
+.pad-top-70 {
+    padding-top: 70px !important
+}
+.pad-top-80 {
+    padding-top: 80px !important
+}
+.pad-top-90 {
+    padding-top: 90px !important
+}
+.pad-top-100 {
+    padding-top: 100px !important
+}
+.pad-top-110 {
+    padding-top: 110px !important
+}
+.pad-top-120 {
+    padding-top: 120px !important
+}
+.pad-top-130 {
+    padding-top: 130px !important
+}
+.pad-top-140 {
+    padding-top: 140px !important
+}
+.pad-top-150 {
+    padding-top: 150px !important
+}
+.pad-top-160 {
+    padding-top: 160px !important
+}
+.pad-top-170 {
+    padding-top: 170px !important
+}
+.pad-top-180 {
+    padding-top: 180px !important
+}
+.pad-top-190 {
+    padding-top: 190px !important
+}
+.pad-top-200 {
+    padding-top: 200px !important
+}
+.pad-bot-10 {
+    padding-bottom: 10px !important
+}
+.pad-bot-20 {
+    padding-bottom: 20px !important
+}
+.pad-bot-30 {
+    padding-bottom: 30px !important
+}
+.pad-bot-40 {
+    padding-bottom: 40px !important
+}
+.pad-bot-50 {
+    padding-bottom: 50px !important
+}
+.pad-bot-60 {
+    padding-bottom: 60px !important
+}
+.pad-bot-80 {
+    padding-bottom: 80px !important
+}
+.pad-bot-90 {
+    padding-bottom: 90px !important
+}
+.pad-bot-100 {
+    padding-bottom: 100px !important
+}
+.pad-bot-110 {
+    padding-bottom: 110px !important
+}
+.pad-bot-120 {
+    padding-bottom: 120px !important
+}
+.pad-bot-130 {
+    padding-bottom: 130px !important
+}
+.pad-bot-140 {
+    padding-bottom: 140px !important
+}
+.pad-bot-150 {
+    padding-bottom: 150px !important
+}
+.pad-bot-160 {
+    padding-bottom: 160px !important
+}
+.pad-bot-170 {
+    padding-bottom: 170px !important
+}
+.pad-bot-180 {
+    padding-bottom: 180px !important
+}
+.pad-bot-190 {
+    padding-bottom: 190px !important
+} 
+.pad-bot-200 {
+    padding-bottom: 200px !important
+}
+.pad-left-10
+{
+    padding-left: 10px !important
+}
+.pad-left-20
+{
+    padding-left: 20px !important
+}
+.pad-left-30
+{
+    padding-left: 30px !important
+}
+.pad-left-40
+{
+    padding-left: 40px !important
+}
+.pad-left-50
+{
+    padding-left: 50px !important
+}
+.pad-left-60
+{
+    padding-left: 60px !important
+}
+.pad-left-70
+{
+    padding-left: 70px !important
+}
+.pad-left-80
+{
+    padding-left: 80px !important
+}
+.pad-left-90
+{
+    padding-left: 90px !important
+}
+.pad-right-10
+{
+    padding-right: 10px !important
+}
+.pad-right-20
+{
+    padding-right: 20px !important
+}
+.pad-right-30
+{
+    padding-right: 30px !important
+}
+.pad-right-40
+{
+    padding-right: 40px !important
+}
+.pad-right-50
+{
+    padding-right: 50px !important
+}
+.pad-right-60
+{
+    padding-right: 60px !important
+}
+.pad-right-70
+{
+    padding-right: 70px !important
+}
+.pad-right-80
+{
+    padding-right: 80px !important
+}
+.pad-right-90
+{
+    padding-right: 90px !important
+}
+.m-b-10 {
+    margin-bottom: 10px !important
+}
+.m-b-20 {
+    margin-bottom: 20px !important
+}
+.m-b-25 {
+    margin-bottom: 25px !important
+}
+.m-b-30 {
+    margin-bottom: 30px !important
+}
+.m-b-40 {
+    margin-bottom: 40px !important
+}
+.m-b-50 {
+    margin-bottom: 50px !important
+}
+.m-b-60 {
+    margin-bottom: 60px !important
+}
+.m-t-5 {
+    margin-top: 5px !important
+}
+.m-t-10 {
+    margin-top: 10px !important
+}
+.m-t-15 {
+    margin-top: 15px !important
+}
+.m-t-20 {
+    margin-top: 20px !important
+}
+.m-t-30 {
+    margin-top: 30px !important
+}
+.m-t-40 {
+    margin-top: 40px !important
+}
+.m-t-50 {
+    margin-top: 50px !important
+}
+.m-t-60 {
+    margin-top: 60px !important
+}
+.m-t-70 {
+    margin-top: 70px !important
+}
+.m-t-80 {
+    margin-top: 80px !important
+}
+.m-l-20 {
+    margin-left: 20px !important;
+}
+.m-l-30 {
+    margin-left: 30px !important;
+}
+.m-l-60 {
+    margin-left: 60px !important;
+}
+.m-l-80 {
+    margin-left: 80px !important;
+}
+.m-r-10 {
+    margin-right: 10px !important;
+}
+.m-r-20 {
+    margin-right: 20px !important;
+}
+.m-r-30 {
+    margin-right: 30px !important;
+}
+.m-r-50 {
+    margin-right: 50px !important;
+}
+.m-r-60 {
+    margin-right: 50px !important;
+}
+.no-margin {
+    margin:0px !important;
+}
+.no-pad {
+    padding:0px !important;
+}
+
+.section-1 {
+    padding: 50px 50px 40px 50px !important;
+}
+
+.section-1-1 button {
+    font-size: 17px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 100%;
+    height: 55px !important;
+    font-weight: 400;
+}
+
+.section-1-1 button:hover {
+  
+    background: #fbbd01;
+    color: black;
+    border: 1px solid #fbbd01;
+}
+
+.section-1-3 h1 {
+    font-size: 110px;
+    color: white;
+    margin: 0 auto;
+    line-height: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.section-1-3 p {
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+button {
+    outline: none !important;
+}
+
+.section-2-1 {
+   position: relative;
+  width: 100%;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all ease-in-out .5s;
+  background-color: black;
+}
+
+
+.section-2-1:hover .overlay{
+  opacity: 0.9 !important;
+}
+
+.overlay a:hover  {
+ opacity: unset !important;
+
+}
+
+.section-2-1:hover a{
+  opacity: 1;
+}
+ 
+a.section-2-3 {
+    font-size: 17px;
+    background: #fbbd01 !important;
+    border: 1px solid #fbbd01;
+    border-radius: 4px;
+    padding-top: 15px !important;
+    color: black !important;
+    text-decoration-line: none !important;
+    width: 42%;
+    padding-bottom: 15px !important;
+    font-weight: 500; 
+    transition: all ease-in-out .5s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+}
+
+
+.section-2-2 {
+    padding-top: 30px;
+}
+
+
+
+@media screen and (max-width:1745.45px) and (min-width:449.09px) {
+
+.section-1-3 h1 {
+    font-size: 100px !important;     
+}
+.section-1-3 p {
+    font-size: 20px;
+}
+}
+
+@media (max-width: 1600px) {
+
+.section-1-3 h1 {
+    font-size: 90px !important;     
+}
+.section-1-3 p {
+    font-size: 18px;
+}
+.section-1-1 button {
+    font-size: 15px;
+    height: 50px !important;
+}
+a.section-2-3 {
+    font-size: 16px;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+.section-1 {
+    padding: 40px 50px 30px 50px !important;
+}
+}
+
+@media (max-width: 1440px) {
+
+.section-1-3 h1 {
+    font-size: 74px !important;
+}
+.section-1-3 p {
+    font-size: 14px;
+    padding-top: 10px !important;
+}
+.section-1-1 button {
+    font-size: 12px;
+    height: 40px !important;
+}
+.section-1 {
+    padding: 30px 50px 20px 50px !important;
+}
+a.section-2-3 {
+    font-size: 14px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+}
+
+
+@media (max-width: 1280px) {
+
+.section-1-3 h1 {
+    font-size: 62px !important;
+    line-height: 35px;
+}
+.section-1-3 p {
+    font-size: 12px;
+    padding-top: 10px !important;
+}
+.section-1-1 button {
+    font-size: 10px;
+    height: 30px !important;
+}
+.section-1-3 p {
+    font-size: 12px;
+    padding-top: 10px !important;
+}
+
+
+}
+
+@media (max-width: 1024px) {
+.section-1-3 h1 {
+    font-size: 53px !important;
+}
+.section-1-3 p {
+    font-size: 10px;
+    padding-top: 5px !important;
+}
+.section-1-1 button {
+    font-size: 8px;
+    height: 25px !important;
+}
+.section-1-3 h1 {
+    font-size: 53px !important;
+    line-height: 40px;
+}
+.section-1 {
+    padding: 20px 30px 15px 30px!important;
+}
+a.section-2-3 {
+    font-size: 10px;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+
+}
+
+
+
+@media (max-width: 800px) {
+
+.section-1-3 h1 {
+    font-size: 42px !important;
+    line-height: 40px;
+}
+.section-1-3 p {
+    font-size: 8px;
+    padding-top: 0px !important;
+}
+.section-1-1 button {
+    font-size: 5px;
+    height: 20px !important;
+}
+.section-1 {
+    padding: 10px 25px 10px 25px!important;
+}
+a.section-2-3 {
+    font-size: 8px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width:519px) and (min-width:320px) {
+.section-1 {
+    padding: 50px 0px 30px 0px !important;
+}
+.section-1-3 h1 {
+    font-size: 45px;
+    padding-right: 10px;
+}
+.section-1-1 button {
+    font-size: 10px;
+    height: 30px !important;
+    font-weight: 400;
+}
+
+.section-2 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 140px;
+}
+
+.section-2-1 img {
+    margin-bottom: 20px !important;
+}
+
+.section-2-2 {
+    padding-top: 0px;
+}
+a.section-2-3 {
+    width: 40%;
+    font-size: 14px;
+}
+.section-1-3 {
+    position: absolute;
+    padding-top: 30px;
+}
+.section-1-3 p {
+    font-size: 16px;
+    padding-top: 10px !important;
+    padding-right: 10px;
+    line-height: 20px;
+}
+.section-1-4 {
+    padding-top: 24px;
+}
+
+.section-1-4 {
+    padding-left: 1px !important;
+    padding-right: 10px !important;
+    margin-left: -6px;
+}
+.section-1-5 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.section-1-6 {
+    padding-left: 0px !important;
+    padding-right: 4px !important;
+    max-width: 78px !important;
+}
+.section-1-7 {
+    margin-top: -54px !important;
+    margin-left: 182px;
+}
+.section-1-8 {
+    padding-left: 0px !important;
+    padding-right: 1px !important;
+    padding-top: 24px;
+}
+.section-1-9 {
+    padding-right: 0px;
+}
+
+
+}
+

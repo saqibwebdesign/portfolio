@@ -1,0 +1,46 @@
+.cut-address { 
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  width: 220px; 
+  height: 1.2em; 
+  white-space: nowrap;
+}
+.restaurant-section table tr td p {
+    font-size: 14px !important;
+    color: #2E2E2E !important;
+    font-family: 'Poppins' !important;
+    font-weight: 500 !important;
+    margin-top: -7px;
+}
+#driverDetailModal .loaderBlock {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+#driverDetailModal .loaderBlock img {
+    height: 200px;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #a21c8d;
+    border-color: #ebac00;
+}
+.badge-success{
+    color: #fff !important;
+    padding: 5px 5px;
+}
+.fa.fa-star.disable {
+    color: #e6e6e6;
+}
+.btn-danger{
+    color: #fff !important;
+}
+.action-tray {
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
