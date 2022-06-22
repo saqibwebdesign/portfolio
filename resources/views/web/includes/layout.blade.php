@@ -70,7 +70,7 @@
                         </div>
                         <div class="col-lg-3 col-md-3 col-12">
                              <div class="section-2-1">
-                                  <img src="{{URL::to('/public/website/')}}/images/image4.jpg" alt="Avatar" class="image" style="width:100%">
+                                  <img src="{{URL::to('/public/website/')}}/images/Image4.jpg" alt="Avatar" class="image" style="width:100%">
                                   <div class="overlay"></div>
                                   <a class="section-2-3" href="#">VIEW MORE</a>
                              </div>
