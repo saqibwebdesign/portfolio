@@ -32,9 +32,16 @@ class portfolio extends Model
         return $c->id;
     }
 
+
     public static function updateImage($id, $filename){
         $i = portfolio::find($id);
         $i->image = $filename;
+        $i->save();
+    }
+
+    public static function updateImageLarge($id, $filename){
+        $i = portfolio::find($id);
+        $i->large_image = $filename;
         $i->save();
     }
 

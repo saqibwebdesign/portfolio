@@ -29,15 +29,25 @@ class portfolioController extends Controller
 
             portfolio::updateImage($id, $filename);
         }
+        if ($request->hasFile('large')) {
+            $file = $request->file('large');
+            $filename = date('dmyHis').'.'.$file->getClientOriginalExtension();
+            $filename = $id.'-'.$filename;
+            $file->move(base_path('/public/storage/portfolio/large/'), $filename);
 
-        for ($i=0; $i < count($request->album); $i++) { 
-            $image_source = date('dmyHis').'-'.$request->album[$i]->getClientOriginalName();
-            $request->album[$i]->move(public_path('/public/storage/portfolio/album/'),$image_source);
+            portfolio::updateImageLarge($id, $filename);
+        }
 
-            $c = new portfolioDetail;
-            $c->portfolio_id = $id;
-            $c->image = $image_source;
-            $c->save();
+        if(isset($request->album)){
+            for ($i=0; $i < count($request->album); $i++) { 
+                $image_source = date('dmyHis').'-'.$request->album[$i]->getClientOriginalName();
+                $request->album[$i]->move(public_path('/public/storage/portfolio/album/'),$image_source);
+
+                $c = new portfolioDetail;
+                $c->portfolio_id = $id;
+                $c->image = $image_source;
+                $c->save();
+            }
         }
 
 

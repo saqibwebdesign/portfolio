@@ -109,6 +109,13 @@
                                     </div>
                                     <div class="col-lg-12 col-md-4 col-12 no-margin">
                                         <div class="input-form res-section-1">
+                                            <label for="inputCurrentPassword"  class="no-margin pad-bot-10">Large</label>
+                                            <input type="file" name="large" class="form-control" required>
+                                            <span class="text-danger" id="CurrentPasswordErrorMsg"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-4 col-12 no-margin">
+                                        <div class="input-form res-section-1">
                                             <label for="inputCurrentPassword"  class="no-margin pad-bot-10">Title</label>
                                             <input type="text" name="title" class="form-control" required>
                                             <span class="text-danger" id="CurrentPasswordErrorMsg"></span>
@@ -136,7 +143,7 @@
                                     <div class="col-lg-12 col-md-4 col-12 no-margin">
                                         <div class="input-form res-section-1">
                                             <label for="inputCurrentPassword"  class="no-margin pad-bot-10">Album</label>
-                                            <input type="file" name="album[]" class="form-control" multiple required>
+                                            <input type="file" name="album[]" class="form-control" multiple>
                                             <span class="text-danger" id="CurrentPasswordErrorMsg"></span>
                                         </div>
                                     </div>
