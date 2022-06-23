@@ -75,10 +75,10 @@ body
     padding-bottom: 20px !important
 }
 .pad-bot-30 {
-    padding-bottom: 30px !important
+    padding-bottom: 30px !important;
 }
 .pad-bot-40 {
-    padding-bottom: 40px !important
+    padding-bottom: 40px !important;
 }
 .pad-bot-50 {
     padding-bottom: 50px !important
@@ -388,7 +388,9 @@ a.section-2-3 {
 .section-2-2 {
     padding-top: 30px;
 }
-
+.sec-1 {
+    margin-top: 30px !important;
+}
 
 
 @media screen and (max-width:1745.45px) and (min-width:449.09px) {

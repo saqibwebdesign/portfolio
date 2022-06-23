@@ -1,0 +1,12 @@
+.capitalize {
+    text-transform: uppercase;
+}
+.no-portfolio {
+    background-color: #e6e6e6;
+    padding: 15px 25px;
+    text-align: center;
+    color: #999;
+}
+.no-portfolio h3{
+    font-weight: 600;
+}

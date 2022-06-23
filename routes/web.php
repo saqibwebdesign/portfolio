@@ -18,6 +18,7 @@ use App\Http\Controllers\webController;
 
 
 Route::get('/', [webController::class, 'index'])->name('web.home');
+Route::get('/catagory/{id}', [webController::class, 'category'])->name('web.category');
 
 
 // Admin

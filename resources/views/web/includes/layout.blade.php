@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">     
-        <title> DNP PROJECTS </title>
+        <title> @yield('title') | DNP PROJECTS </title>
         @include('web.includes.style')
     </head>	
     <body> 
@@ -50,75 +50,9 @@
             </div>
         </section>
 
-        <section>
-            <div class="section-2 pad-left-10 pad-right-10 pad-bot-30">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-12">
-                             <div class="section-2-1">
-                                  <img src="{{URL::to('/public/website/')}}/images/image2.jpg" alt="Avatar" class="image" style="width:100%">
-                                  <div class="overlay"></div>
-                                  <a class="section-2-3" href="#">VIEW MORE</a>
-                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-12">
-                             <div class="section-2-1">
-                                  <img src="{{URL::to('/public/website/')}}/images/image3.jpg" alt="Avatar" class="image" style="width:100%">
-                                  <div class="overlay"></div>
-                                  <a class="section-2-3" href="#">VIEW MORE</a>
-                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-12">
-                             <div class="section-2-1">
-                                  <img src="{{URL::to('/public/website/')}}/images/Image4.jpg" alt="Avatar" class="image" style="width:100%">
-                                  <div class="overlay"></div>
-                                  <a class="section-2-3" href="#">VIEW MORE</a>
-                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-12">
-                             <div class="section-2-1">
-                                  <img src="{{URL::to('/public/website/')}}/images/image5.jpg" alt="Avatar" class="image" style="width:100%">
-                                  <div class="overlay"></div>
-                                  <a class="section-2-3" href="#">VIEW MORE</a>
-                             </div>
-                        </div>
-                    </div>
-                    <div class="row section-2-2">
-                        <div class="col-lg-3 col-md-3 col-12">
-                             <div class="section-2-1">
-                                  <img src="{{URL::to('/public/website/')}}/images/image6.jpg" alt="Avatar" class="image" style="width:100%">
-                                  <div class="overlay"></div>
-                                  <a class="section-2-3" href="#">VIEW MORE</a>
-                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-12">
-                             <div class="section-2-1">
-                                  <img src="{{URL::to('/public/website/')}}/images/image7.jpg" alt="Avatar" class="image" style="width:100%">
-                                  <div class="overlay"></div>
-                                  <a class="section-2-3" href="#">VIEW MORE</a>
-                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-12">
-                             <div class="section-2-1">
-                                  <img src="{{URL::to('/public/website/')}}/images/image8.jpg" alt="Avatar" class="image" style="width:100%">
-                                  <div class="overlay"></div>
-                                  <a class="section-2-3" href="#">VIEW MORE</a>
-                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-12">
-                             <div class="section-2-1">
-                                  <img src="{{URL::to('/public/website/')}}/images/image9.jpg" alt="Avatar" class="image" style="width:100%">
-                                  <div class="overlay"></div>
-                                  <a class="section-2-3" href="#">VIEW MORE</a>
-                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        @yield('content')
 
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        @include('web.includes.script')
 
     </body>  
 </html>
