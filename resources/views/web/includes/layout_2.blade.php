@@ -83,7 +83,7 @@
                      @endphp
                      @foreach($categories as $cat)
                         @php $name = explode(' ', $cat->name); @endphp 
-                        <a href="{{route('web.category', base64_encode($cat->id))}}" class="capitalize"> {{$name[0]}}<br>{{$name[1]}} </a>
+                        <a href="{{route('web.category', base64_encode($cat->id))}}" class="capitalize"> {{$name[0]}}<br>{{@$name[1]}} </a>
                      @endforeach 
                   </div>
                </div>
@@ -98,7 +98,7 @@
                <div class="col-md-3 col-lg-3 col-sm-12 col-12">
                   <div class="footer-about">
                      <div class="footer-logo">
-                        <a href=""> <img src="{{URL::to('/public/website/')}}/images/logo-white.png"> </a>   
+                        <a href=""> <img src="{{URL::to('/public/website/')}}/images/logo-dark.png"> </a>   
                      </div>
                      <div class="footer-details">
                         <ul>
@@ -118,13 +118,15 @@
                </div>
                <div class="col-md-3 col-lg-3 col-sm-6 col-12">
                   <div class="footer-list">
-                     <h3 class="footer-heading1"> SERVICES </h3>
+                     <h3 class="footer-heading1"> PORTFOLIO </h3>
                      <ul>
-                        <li> <a href=""> Corporate Branding </a> </li>
-                        <li> <a href=""> Website Development </a> </li>
-                        <li> <a href=""> Website Designing </a> </li>
-                        <li> <a href=""> Apps Design & Development </a> </li>
-                        <li> <a href=""> Digital Marketing </a> </li>
+                        @foreach($categories as $key => $cat)
+                              <li> 
+                                 <a href="{{route('web.category', base64_encode($cat->id))}}"> 
+                                    {{$cat->name}} 
+                                 </a> 
+                              </li>
+                        @endforeach
                      </ul>
                   </div>
                </div>

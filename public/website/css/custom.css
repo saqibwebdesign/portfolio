@@ -698,7 +698,7 @@ footer {
 .callback-head {
     float: left;
     width: 100%;
-    background: #fb2224;
+    background: #5000ff;
     padding: 15px 20px;
 }
 .callback-head h4 {
@@ -749,7 +749,7 @@ footer {
 }
 
 .submit-btn1 {
-    background: #fb2224;
+    background: #5000ff;
     border: none;
     color: white;
     font-weight: 500;
@@ -833,10 +833,13 @@ footer {
 }
 
 .submit-btn1:hover {
-    background:#5000ff;
+    background: #ffd300;
+    color: #16202a;
 }
 .related-grid a:hover {
-    background:#fb2224;
+    background: #ffd300;
+    color: #0f1432;
+    font-weight: 600;
 }
 
 .testimonial-box {
