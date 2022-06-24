@@ -3,11 +3,11 @@ $(document).ready(function(){
     'use strict'
 
         //Portfolio
-            $(document).on('click', '.deletePorfolio', function(){
+            $(document).on('click', '.deletePortfolio', function(){
                 var val = $(this).data('id');
                 Swal.fire({
                   title: 'Are you sure?',
-                  text: "Want to delete this category!",
+                  text: "Want to delete this portfolio!",
                   icon: 'warning',
                   showCancelButton: true,
                   confirmButtonColor: '#3085d6',
@@ -15,7 +15,7 @@ $(document).ready(function(){
                   confirmButtonText: 'Yes, delete it!'
                 }).then((result) => {
                     if (result.isConfirmed) {
-                        window.location.href = host+'/categories/delete/'+val;
+                        window.location.href = host+'/portfolio/delete/'+val;
                     }else{
                         Swal.close();
                     }

@@ -83,4 +83,12 @@ class portfolioController extends Controller
 
         return redirect()->back()->with('success', 'Portfolio Updated.');
     }
+
+    function portfolioDelete($id){
+        $id = base64_decode($id);
+        portfolio::destroy($id);
+        portfolioDetail::where('portfolio_id', $id)->delete();
+
+        return redirect()->back()->with('success', 'Portfolio Successfully Deleted.');
+    }
 }
