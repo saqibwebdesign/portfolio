@@ -65,51 +65,7 @@
       
       @yield('content')
 
-      <!-- CTA Section Starts Here -->
-      <section class="pad-bot-20 pad-top-20">
-         <div class="container">
-            <div class="cta-sec text-center">
-               <h5 class="col-white"> We have <b> Digital Solution </b> for Everyone </h5>
-               <h3 class="col-white"> Let’s help you find more clients and grow your Business </h3>
-               <a href="" class="custom-btn1 upper"> Let's Get Started </a>
-            </div>
-         </div>
-      </section>
-      <!-- CTA Section Ends Here -->
-      <!-- Client Testimonial Section Starts Here -->
-      <section class="pad-top-80 pad-bot-20">
-         <div class="container">
-            <div class="block-element text-center m-b-40">
-               <div class="sec-head2">
-                  <h3 class="col-grey1"> Client’s Testimonial </h3>
-                  <p class="upper "> What our <span class="col-blue1 highlight-tag"> clients say <img src="{{URL::to('/public/website/')}}/images/line-1.jpg"> </span> about our work </p>
-               </div>
-            </div>
-            <div class="block-element">
-               <div class="custom-slider1 arrows-1">
-                  <div class="testimonial-box">
-                     <img src="{{URL::to('/public/website/')}}/images/quote-tag.jpg">
-                     <p class="col-grey2"> We need assistance to get a custom-built website based on the PrestaShop theme being categorized under e-commerce business. We admire Webby Central’s project management team for their coordination in the website development. </p>
-                     <h4 class="col-grey1"> Lenoardo Rogrigues </h4>
-                     <h5 class="col-grey1"> Technical PM, Reialble Group  </h5>
-                  </div>
-                  <div class="testimonial-box">
-                     <img src="{{URL::to('/public/website/')}}/images/quote-tag.jpg">
-                     <p class="col-grey2"> We need assistance to get a custom-built website based on the PrestaShop theme being categorized under e-commerce business. We admire Webby Central’s project management team for their coordination in the website development. </p>
-                     <h4 class="col-grey1"> Lenoardo Rogrigues </h4>
-                     <h5 class="col-grey1"> Technical PM, Reialble Group  </h5>
-                  </div>
-                  <div class="testimonial-box">
-                     <img src="{{URL::to('/public/website/')}}/images/quote-tag.jpg">
-                     <p class="col-grey2"> We need assistance to get a custom-built website based on the PrestaShop theme being categorized under e-commerce business. We admire Webby Central’s project management team for their coordination in the website development. </p>
-                     <h4 class="col-grey1"> Lenoardo Rogrigues </h4>
-                     <h5 class="col-grey1"> Technical PM, Reialble Group  </h5>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- Client Testimonial Section Ends Here -->
+     
       <!-- Related Portfolio Section Starts Here -->
       <section class="pad-top-80 pad-bot-100">
          <div class="container">

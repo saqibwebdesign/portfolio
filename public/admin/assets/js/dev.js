@@ -31,6 +31,36 @@ $(document).ready(function(){
                 });
             });
 
+
+        //Testimonial
+            $(document).on('click', '.deleteTestimonial', function(){
+                var val = $(this).data('id');
+                Swal.fire({
+                  title: 'Are you sure?',
+                  text: "Want to delete this Testimonial!",
+                  icon: 'warning',
+                  showCancelButton: true,
+                  confirmButtonColor: '#3085d6',
+                  cancelButtonColor: '#d33',
+                  confirmButtonText: 'Yes, delete it!'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        window.location.href = host+'/testimonial/delete/'+val;
+                    }else{
+                        Swal.close();
+                    }
+                });
+            });
+
+            $(document).on('click', '.editTestimonial', function(){
+                var val = $(this).data('id');
+                $('#edit-testimonial').modal('show');
+                $('#edit-testimonial .row').html('<img src="'+host+'/../public/loader.gif" />');
+                $.get(host+'/testimonial/edit/'+val, function(data){
+                    $('#edit-testimonial .row').html(data);
+                });
+            });
+
         //Categories
             $(document).on('click', '.deleteCategory', function(){
                 var val = $(this).data('id');

@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\admin\adminController;
 use App\Http\Controllers\admin\settingsController;
 use App\Http\Controllers\admin\portfolioController;
+use App\Http\Controllers\admin\testimonialController;
 use App\Http\Controllers\webController;
 /*
 |--------------------------------------------------------------------------
@@ -30,7 +31,7 @@ Route::get('/catagory/{id}', [webController::class, 'category'])->name('web.cate
         //Middleware
             Route::middleware('adminAuth')->group(function(){
                 Route::get('/', [adminController::class, 'index'])->name('admin.dashboard');
-                    //Restaurants
+                    //Portfolio
                         Route::prefix('portfolio')->group(function(){
                             Route::get('/', [portfolioController::class, 'index'])->name('admin.portfolio');   
                             Route::post('/add', [portfolioController::class, 'portfolioAdd'])->name('admin.portfolio.add');
@@ -38,6 +39,16 @@ Route::get('/catagory/{id}', [webController::class, 'category'])->name('web.cate
                             Route::post('/update', [portfolioController::class, 'portfolioUpdate'])->name('admin.portfolio.update');
                             Route::get('/delete/{id}', [portfolioController::class, 'portfolioDelete']);
                         });
+
+                    //Testimonials
+                        Route::prefix('testimonial')->group(function(){
+                            Route::get('/', [testimonialController::class, 'testimonial'])->name('admin.testimonial');
+                            Route::get('/delete/{id}', [testimonialController::class, 'testimonialDelete']);
+                            Route::get('/edit/{id}', [testimonialController::class, 'testimonialEdit']);
+                            Route::post('/add', [testimonialController::class, 'testimonialAdd'])->name('admin.testimonial.add');
+                            Route::post('/update', [testimonialController::class, 'testimonialUpdate'])->name('admin.testimonial.update');
+                        });
+
 
                     //Categories
                         Route::prefix('categories')->group(function(){

@@ -20,6 +20,11 @@
             </a>
         </li>
         <li>
+            <a href="{{route('admin.testimonial')}}"  aria-expanded="false">
+              Testimonials
+            </a>
+        </li>
+        <li>
             <a href="{{route('admin.catagories')}}"  aria-expanded="false">
               Categories
             </a>
