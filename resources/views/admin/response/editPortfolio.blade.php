@@ -19,6 +19,20 @@
                 </div>
             </div>
         </div>
+        <div class="col-lg-8 col-md-8 col-12 no-margin">
+            <div class="input-form res-section-1">
+                <label for="inputCurrentPassword"  class="no-margin pad-bot-10">Large</label>
+                <input type="file" name="large" class="form-control">
+                <span class="text-danger" id="CurrentPasswordErrorMsg"></span>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12 no-margin">
+            <br><br>
+            <div class="input-form res-section-1">
+                <input type="checkbox" name="is_featured" {{$data->is_featured == '1' ? 'checked' : ''}}>
+                <label for="inputCurrentPassword"  class="no-margin pad-bot-10">Featured</label>
+            </div>
+        </div>
         <div class="col-lg-12 col-md-4 col-12 no-margin">
             <div class="input-form res-section-1">
                 <label for="inputCurrentPassword"  class="no-margin pad-bot-10">Title</label>

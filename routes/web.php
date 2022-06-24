@@ -35,7 +35,7 @@ Route::get('/catagory/{id}', [webController::class, 'category'])->name('web.cate
                             Route::get('/', [portfolioController::class, 'index'])->name('admin.portfolio');   
                             Route::post('/add', [portfolioController::class, 'portfolioAdd'])->name('admin.portfolio.add');
                             Route::get('/edit/{id}', [portfolioController::class, 'portfolioEdit']);
-                            Route::post('/update', [settingsController::class, 'portfolioUpdate'])->name('admin.portfolio.update');
+                            Route::post('/update', [portfolioController::class, 'portfolioUpdate'])->name('admin.portfolio.update');
                         });
 
                     //Categories

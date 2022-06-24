@@ -63,7 +63,7 @@ class portfolioController extends Controller
     function portfolioUpdate(Request $request){
         $data = $request->all();
         $id = base64_decode($data['cid']);
-        portfolio::updateCategory($id, $data);
+        portfolio::updatePortfolio($id, $data);
         if ($request->hasFile('logo_img')) {
             $file = $request->file('logo_img');
             $filename = date('dmyHis').'.'.$file->getClientOriginalExtension();
@@ -71,6 +71,14 @@ class portfolioController extends Controller
             $file->move(base_path('/public/storage/portfolio/'), $filename);
 
             portfolio::updateImage($id, $filename);
+        }
+        if ($request->hasFile('large')) {
+            $file = $request->file('large');
+            $filename = date('dmyHis').'.'.$file->getClientOriginalExtension();
+            $filename = $id.'-'.$filename;
+            $file->move(base_path('/public/storage/portfolio/large/'), $filename);
+
+            portfolio::updateImageLarge($id, $filename);
         }
 
         return redirect()->back()->with('success', 'Portfolio Updated.');

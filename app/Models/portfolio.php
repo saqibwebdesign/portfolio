@@ -16,6 +16,7 @@ class portfolio extends Model
         $c->title = $data['title'];
         $c->category_id = $data['category'];
         $c->description = $data['description'];
+        $c->is_featured = !empty($data['is_featured']) ? '1' : '0';
         $c->status = '1';
         $c->save();
 
@@ -27,6 +28,7 @@ class portfolio extends Model
         $c->title = $data['title'];
         $c->category_id = $data['category'];
         $c->description = $data['description'];
+        $c->is_featured = !empty($data['is_featured']) ? '1' : '0';
         $c->save();
 
         return $c->id;

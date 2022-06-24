@@ -16,7 +16,7 @@ class webController extends Controller
     function category($id){
         $id = base64_decode($id);
         $data['category'] = categories::find($id);
-        $data['portfolio'] = portfolio::where('category_id', $id)->get();
+        $data['portfolio'] = portfolio::where('category_id', $id)->orderBy('is_featured', 'desc')->get();
         return view('web.portfolio')->with($data);
     }
 }
