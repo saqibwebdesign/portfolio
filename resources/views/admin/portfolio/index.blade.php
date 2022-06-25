@@ -55,6 +55,7 @@
                                             <th scope="col" style="width:20%">Title</th>
                                             <th scope="col" style="width:10%">Category</th>
                                             <th scope="col" style="width:35%">Description</th>
+                                            <th scope="col" style="width:10%"></th>
                                             <th scope="col" style="width:15%; text-align: right;">Action</th>
                                         </tr>
                                     </thead>
@@ -72,6 +73,9 @@
                                                 <td><h4>{{$val->title}}</h4></td>
                                                 <td><label class="badge badge-primary">{{@$val->category->name}}</label></td>
                                                 <td>{{$val->description}}</td>
+                                                <td>
+                                                    <input type="checkbox" name="is_featured" id="checkbox-feature{{$val->id}}" class="is_featured" value="1" {{$val->is_featured == '1' ? 'checked' : ''}} data-id="{{base64_encode($val->id)}}"> <label for="checkbox-feature{{$val->id}}" class="feature-label">Featured</label>
+                                                </td>
                                                 <td style=" text-align: right;">
                                                     <div class="action-tray pull-right">
                                                     	<a href="javascript:void(0)" class="btn btn-sm btn-primary editPortfolio" data-id="{{base64_encode($val->id)}}"><i class="fa fa-pencil-square-o"></i></a>
@@ -209,4 +213,16 @@
 @section('addScript')
       <!-- Fancybox Gallery -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+      <script type="text/javascript">
+            $(document).on('change', '.is_featured', function() {
+                var type = 0;
+                var id = $(this).data('id');
+                if(this.checked) {
+                    type = 1;
+                }
+                $.get("{{URL::to('admin/portfolio/feature')}}/"+type+"/"+id, function(response){
+                    
+                });   
+            });
+      </script>
 @endsection

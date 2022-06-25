@@ -38,6 +38,7 @@ Route::get('/catagory/{id}', [webController::class, 'category'])->name('web.cate
                             Route::get('/edit/{id}', [portfolioController::class, 'portfolioEdit']);
                             Route::post('/update', [portfolioController::class, 'portfolioUpdate'])->name('admin.portfolio.update');
                             Route::get('/delete/{id}', [portfolioController::class, 'portfolioDelete']);
+                            Route::get('/feature/{type}/{id}', [portfolioController::class, 'portfolioFeature']);
                         });
 
                     //Testimonials

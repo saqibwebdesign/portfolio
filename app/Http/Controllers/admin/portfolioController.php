@@ -16,13 +16,9 @@ class portfolioController extends Controller
     {
         $cat = isset($_GET['cat']) ? $_GET['cat'] : 0;
         if($cat > 0){
-            $data['portfolio'] = portfolio::when($cat > 0, function($q) use ($cat){
-                return $q->where('category_id', $cat);
-            })->orderBy('id')->get();
+            $data['portfolio'] = portfolio::where('category_id', $cat)->orderBy('id')->get();
         }else{
-            $data['portfolio'] = portfolio::when($cat > 0, function($q) use ($cat){
-                return $q->where('category_id', $cat);
-            })->orderBy('id')->paginate(15);
+            $data['portfolio'] = portfolio::orderBy('id')->paginate(15);
         }
         $data['cat'] = $cat;
         $data['categories'] = categories::orderBy('name')->get();
@@ -100,5 +96,14 @@ class portfolioController extends Controller
         portfolioDetail::where('portfolio_id', $id)->delete();
 
         return redirect()->back()->with('success', 'Portfolio Successfully Deleted.');
+    }
+
+    function portfolioFeature($type, $id){
+        $id = base64_decode($id);
+        $data = portfolio::find($id);
+        $data->is_featured = $type;
+        $data->save();
+
+        return response()->json(['success' => 'Portfolio Successfully Deleted.']);
     }
 }
