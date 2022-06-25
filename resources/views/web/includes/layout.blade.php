@@ -5,9 +5,9 @@
         <title> @yield('title') | DNP PROJECTS </title>
         @include('web.includes.style')
     </head>	
-    <body> 
+    <body style="height: 100vh;"> 
 
-        <section>
+        <!-- <section>
             <div class="section-1">
                 <div class="container-fluid">
                     <div class="row">
@@ -48,9 +48,39 @@
                     </div>
                 </div>
             </div>
-        </section>
-
+        </section> -->
+        <header>
+         <div class="container">
+            <div class="header-row">
+               <div class="logo">
+                  <a href="{{URL::to('/')}}"> <img src="{{URL::to('/public/website/')}}/images/logo-dark.png"> </a>   
+               </div>
+               <div class="navbar-handler">
+                  <img src="{{URL::to('/public/website/')}}/images/hamburger.png">   
+               </div>
+               <div class="navbar-custom">
+                  <div class="menu-item">
+                     <a href=""> ABOUT ME </a>   
+                  </div>
+                  <div class="menu-item">
+                     <a href=""> SERVICES </a>   
+                  </div>
+                  <div class="menu-item">
+                     <a href=""> CONTACT US </a>   
+                  </div>
+                  <div class="menu-item">
+                     <a href=""> PORTFOLIO </a>   
+                  </div>
+                  <div class="menu-item ">
+                     <a href="" class="custom-btn2 custom-btn22"> GET QUOTE </a>   
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      
         @yield('content')
+
 
         @include('web.includes.script')
 

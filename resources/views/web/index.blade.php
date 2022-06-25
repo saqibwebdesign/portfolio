@@ -2,7 +2,7 @@
 @section('title', 'Home')
 @section('content')
 <section>
-    <div class="section-2 pad-left-10 pad-right-10 pad-bot-30">
+    <div class="section-2 pad-left-10 pad-right-10 pad-bot-30 pad-top-100">
         <div class="container-fluid">
             <div class="row">
             	@foreach($categories as $val)

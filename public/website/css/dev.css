@@ -10,3 +10,11 @@
 .no-portfolio h3{
     font-weight: 600;
 }
+.custom-btn22 {
+    background-color: #ffd300;
+    color: #5000ff !important;
+}
+.custom-btn22:hover {
+    background-color: #5000ff;
+    color: #ffd300 !important;
+}

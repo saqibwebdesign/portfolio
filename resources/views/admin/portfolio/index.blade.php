@@ -30,7 +30,17 @@
 	                <div class="white_box">
 	                   <div class="QA_section">
                             <div class="white_box_tittle list_header no-margin">
-                                <h3 class="inner-order-head no-margin pad-bot-10">Portfolio</h3>
+                                <form class="filter-form" method="get">
+                                    <select class="form-control" name="cat">
+                                        <option value="">Category</option>
+                                        @foreach($categories as $val)
+                                            <option value="{{$val->id}}"
+                                                {{isset($_GET['cat']) && $_GET['cat'] == $val->id ? 'selected' : ''}}
+                                            >{{$val->name}}</option>
+                                        @endforeach
+                                    </select>
+                                    <button type="submit" class="btn btn-default btn-filter"><i class="fa fa-search"></i></button>
+                                </form>
                                 <div class="add_button m-b-20 pad-top-10">
                                     <a href="#" class="bg-yellow" data-toggle="modal" data-target="#add-portfolio">Add New</a>
                                 </div>
@@ -53,7 +63,11 @@
                                             <tr>
                                                 <td>{{++$key}}</td>
                                                 <td>
-                                                    <img src="{{URL::to('/public/storage/portfolio/'.$val->image)}}" width="100px"> 
+                                                    <div class="card-image">
+                                                        <a href="{{URL::to('/public/storage/portfolio/')}}/{{empty($val->large_image) ? $val->image : 'large/'.$val->large_image}}" data-fancybox="gallery" data-caption="{{$val->title}}">
+                                                            <img src="{{URL::to('/public/storage/portfolio/'.$val->image)}}" alt="Image Gallery" width="100px">
+                                                        </a>
+                                                    </div> 
                                                 </td>
                                                 <td><h4>{{$val->title}}</h4></td>
                                                 <td><label class="badge badge-primary">{{@$val->category->name}}</label></td>
@@ -65,7 +79,12 @@
                                                     </div>
                                                 </td>
                                             </tr>                               
-                                        @endforeach             
+                                        @endforeach
+                                        @if(count($portfolio) == 0)
+                                            <tr>
+                                                <td colspan="7">&nbsp;&nbsp;&nbsp;No portfolio found.</td>
+                                            </tr>
+                                        @endif             
                                     </tbody>
                                 </table>
                             </div>
@@ -180,4 +199,12 @@
             </div>
         </div>
     </div>
+@endsection
+@section('addStyle')
+      <!-- Fancybox Gallery -->
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+@endsection
+@section('addScript')
+      <!-- Fancybox Gallery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 @endsection

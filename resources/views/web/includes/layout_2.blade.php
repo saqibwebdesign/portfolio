@@ -102,10 +102,9 @@
                      </div>
                      <div class="footer-details">
                         <ul>
-                           <li> <b> Email:  </b> <a href="mailto:info@divsnixel.com"> info@divsnpixel.com</a> </li>
+                           <li> <b> Email:  </b> <a href="mailto:info@divsnixel.com"> info@dnpprojects.com</a> </li>
                            <li> <b> Mobile:  </b> <a href="tel:+92 333 2987949"> +92 333 2987949  </a> </li>
                            <li> <b> Tel:  </b> <a href="tel:021 36907949"> 021 36907949 </a> </li>
-                           <li> <b> Skype:  </b> <a href=""> Divsnpixel </a> </li>
                         </ul>
                      </div>
                      <div class="footer-social">
@@ -172,7 +171,7 @@
       <!-- Copyrights Section Starts Here -->
       <section class="copyrights-sec">
          <div class="container">
-            <span> © 2011 - 2022 Divsnpixel.com | All Rights Reserved. </span>   
+            <span> © 2011 - 2022 dnpprojects.com | All Rights Reserved. </span>   
          </div>
       </section>
       <!-- Copyrights Section Ends Here -->
