@@ -92,7 +92,9 @@
 	                </div>
 	            </div>
             </div>
-            {{$portfolio->links()}}
+            @if($cat == 0)
+                {{$portfolio->links()}}
+            @endif
         </div>
     </div>
 </div>

@@ -15,9 +15,16 @@ class portfolioController extends Controller
     function index()
     {
         $cat = isset($_GET['cat']) ? $_GET['cat'] : 0;
-        $data['portfolio'] = portfolio::when($cat > 0, function($q) use ($cat){
-            return $q->where('category_id', $cat);
-        })->orderBy('id')->paginate(15);
+        if($cat > 0){
+            $data['portfolio'] = portfolio::when($cat > 0, function($q) use ($cat){
+                return $q->where('category_id', $cat);
+            })->orderBy('id')->get();
+        }else{
+            $data['portfolio'] = portfolio::when($cat > 0, function($q) use ($cat){
+                return $q->where('category_id', $cat);
+            })->orderBy('id')->paginate(15);
+        }
+        $data['cat'] = $cat;
         $data['categories'] = categories::orderBy('name')->get();
         return view('admin.portfolio.index')->with($data);
     }
