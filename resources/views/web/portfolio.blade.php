@@ -123,10 +123,11 @@
    <script type="text/javascript">
       let page = 1;
       let status = 0;
+      let open = 0;
       $(window).bind('scroll', function() {
           if($(window).scrollTop() >= $('#portfolio_tray').offset().top + $('#portfolio_tray').outerHeight() - (window.innerHeight-300) && $(window).scrollTop() <= ($('#portfolio_tray').offset().top + $('#portfolio_tray').outerHeight() - (window.innerHeight-300))+20) {
-            if(status == 0){
-               page++;
+            if(status == 0 && open == 0){
+               page++; open = 1;
                $('#loader_tray').css({display: 'block'});
                $.get("{{route('web.category.loadmore', base64_encode($category->id))}}?page="+page, function(response){
                   if(response.status == 1){
@@ -137,7 +138,7 @@
                      $('#loader_tray').css({display: 'none'});
                      status = 1;
                   }
-                  console.log(response.status);
+                  open = 0;
                });
             }
           }
