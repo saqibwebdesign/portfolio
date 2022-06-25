@@ -98,9 +98,9 @@
                   @foreach($testimonials as $test)
                      <div class="testimonial-box">
                         <img src="{{URL::to('/public/website/')}}/images/quote-tag.jpg">
-                        <p class="col-grey2"> We need assistance to get a custom-built website based on the PrestaShop theme being categorized under e-commerce business. We admire Webby Central’s project management team for their coordination in the website development. </p>
-                        <h4 class="col-grey1"> Lenoardo Rogrigues </h4>
-                        <h5 class="col-grey1"> Technical PM, Reialble Group  </h5>
+                        <p class="col-grey2"> {{$test->testimonial}} </p>
+                        <h4 class="col-grey1"> {{$test->client_name}} </h4>
+                        <h5 class="col-grey1"> {{$test->client_tagline}}  </h5>
                      </div>
                   @endforeach
                   @if(count($testimonials) == 0)
