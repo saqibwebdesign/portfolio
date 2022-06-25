@@ -14,11 +14,11 @@ class webController extends Controller
         return view('web.index')->with($data);
     }
 
-    function category($id){
-        $id = base64_decode($id);
-        $data['category'] = categories::find($id);
-        $data['portfolio'] = portfolio::where('category_id', $id)->orderBy('is_featured', 'desc')->get();
-        $data['testimonials'] = testimonial::where('category_id', $id)->get();
+    function category($category){
+        $cat = urldecode($category);
+        $data['category'] = categories::where('name', $cat)->first();
+        $data['portfolio'] = portfolio::where('category_id', $data['category']->id)->orderBy('is_featured', 'desc')->get();
+        $data['testimonials'] = testimonial::where('category_id', $data['category']->id)->get();
         return view('web.portfolio')->with($data);
     }
 }

@@ -83,7 +83,7 @@
                      @endphp
                      @foreach($categories as $cat)
                         @php $name = explode(' ', $cat->name); @endphp 
-                        <a href="{{route('web.category', base64_encode($cat->id))}}" class="capitalize"> {{$name[0]}}<br>{{@$name[1]}} </a>
+                        <a href="{{route('web.category', urlencode($cat->name))}}" class="capitalize"> {{$name[0]}}<br>{{@$name[1]}} </a>
                      @endforeach 
                   </div>
                </div>
@@ -121,7 +121,7 @@
                      <ul>
                         @foreach($categories as $key => $cat)
                               <li> 
-                                 <a href="{{route('web.category', base64_encode($cat->id))}}"> 
+                                 <a href="{{route('web.category', urlencode($cat->name))}}"> 
                                     {{$cat->name}} 
                                  </a> 
                               </li>
