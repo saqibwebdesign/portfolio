@@ -18,3 +18,12 @@
     background-color: #5000ff;
     color: #ffd300 !important;
 }
+#loader_tray .col-12 {
+    text-align: center;
+}
+#loader_tray .col-12 img {
+    width: 200px;
+}
+#loader_tray {
+    display: none;
+}

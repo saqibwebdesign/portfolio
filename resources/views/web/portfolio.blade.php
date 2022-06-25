@@ -69,6 +69,11 @@
                </div>
             @endif
          </div>
+         <div class="row" id="loader_tray">
+            <div class="col-12">
+               <img src="{{URl::to('/public/loader.gif')}}">
+            </div>
+         </div>
       </div>
    </section>
    <!-- Portfolio Grid Section Ends Here -->
@@ -116,10 +121,25 @@
 @endsection
 @section('addScript')
    <script type="text/javascript">
-      var page = 1;
+      let page = 1;
+      let status = 0;
       $(window).bind('scroll', function() {
           if($(window).scrollTop() >= $('#portfolio_tray').offset().top + $('#portfolio_tray').outerHeight() - (window.innerHeight-300) && $(window).scrollTop() <= ($('#portfolio_tray').offset().top + $('#portfolio_tray').outerHeight() - (window.innerHeight-300))+20) {
-              console.log($(window).scrollTop());
+            if(status == 0){
+               page++;
+               $('#loader_tray').css({display: 'block'});
+               $.get("{{route('web.category.loadmore', base64_encode($category->id))}}?page="+page, function(response){
+                  if(response.status == 1){
+
+                     $('#loader_tray').css({display: 'none'});
+                     $('#portfolio_tray').append(response.html);
+                  }else{
+                     $('#loader_tray').css({display: 'none'});
+                     status = 1;
+                  }
+                  console.log(response.status);
+               });
+            }
           }
       });
    </script>

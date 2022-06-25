@@ -25,4 +25,16 @@ class webController extends Controller
             return view('web.portfolio')->with($data);
         }
     }
+
+    function categoryLoadMore($id){
+        $id = base64_decode($id);
+        
+        $portfolio = portfolio::where('category_id', $id)->orderBy('is_featured', 'desc')->paginate(9);
+        if(count($portfolio) !== 0){
+            $html = view('web.response.portfolio', ['portfolio' => $portfolio])->render();
+            return response()->json(['status' => 1, 'html' => $html]);
+        }else{
+            return response()->json(['status' => 0, 'message' => 'No More Portfolio Available.']);
+        }
+    }
 }
