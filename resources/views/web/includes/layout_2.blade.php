@@ -5,7 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title> @yield('title') | DNP Projects </title>
       <!-- Favicon -->
-      <link rel="icon" type="image/png" href="{{URL::to('/public/website/')}}/images/favicon.png">
+       <link rel="icon" type="image/png" href="{{URL::to('public/website')}}/images/favicon.png">
       <!-- Animate With CSS -->
       <link rel="stylesheet" type="text/css" href="{{URL::to('/public/website/')}}/css/animate.css">
       <!-- Font Awesome KIT -->
@@ -15,7 +15,7 @@
       <link href="{{URL::to('/public/website/')}}/fontawesome-kit-5/css/solid.css" rel="stylesheet">
       <script defer src="{{URL::to('/public/website/')}}/fontawesome-kit-5/js/all.js"></script>
       <script defer src="{{URL::to('/public/website/')}}/fontawesome-kit-5/js/brands.js"></script>
-      <script defer src="fontawesome-kit-5/js/solid.js"></script>
+      <script defer src="{{URL::to('/public/website/')}}/fontawesome-kit-5/js/solid.js"></script>
       <script defer src="{{URL::to('/public/website/')}}/fontawesome-kit-5/js/fontawesome.js"></script>
       <!-- Fancybox Gallery -->
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
@@ -182,5 +182,6 @@
       <script src="{{URL::to('/public/website/')}}/js/functions.js"> </script>
       <!-- Fancybox Gallery -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+      @yield('addScript')
    </body>
 </html>

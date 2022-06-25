@@ -17,8 +17,12 @@ class webController extends Controller
     function category($category){
         $cat = urldecode($category);
         $data['category'] = categories::where('name', $cat)->first();
-        $data['portfolio'] = portfolio::where('category_id', $data['category']->id)->orderBy('is_featured', 'desc')->get();
-        $data['testimonials'] = testimonial::where('category_id', $data['category']->id)->get();
-        return view('web.portfolio')->with($data);
+        if(empty($data['category'])){
+            return redirect('/');
+        }else{
+            $data['portfolio'] = portfolio::where('category_id', $data['category']->id)->orderBy('is_featured', 'desc')->paginate(9);
+            $data['testimonials'] = testimonial::where('category_id', $data['category']->id)->get();
+            return view('web.portfolio')->with($data);
+        }
     }
 }

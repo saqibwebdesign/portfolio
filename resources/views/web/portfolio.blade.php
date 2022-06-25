@@ -53,7 +53,7 @@
    <!-- Portfolio Grid Section Starts Here -->
    <section class="pad-bot-80">
       <div class="container">
-         <div class="row custom-row1">
+         <div class="row custom-row1" id="portfolio_tray">
             @foreach($portfolio as $val)
                <div class="col-md-4 col-lg-4 col-sm-6 col-12 custom-pad1">
                   <div class="card-image">
@@ -113,4 +113,14 @@
          </div>
       </section>
       <!-- Client Testimonial Section Ends Here -->
+@endsection
+@section('addScript')
+   <script type="text/javascript">
+      var page = 1;
+      $(window).bind('scroll', function() {
+          if($(window).scrollTop() >= $('#portfolio_tray').offset().top + $('#portfolio_tray').outerHeight() - (window.innerHeight-300) && $(window).scrollTop() <= ($('#portfolio_tray').offset().top + $('#portfolio_tray').outerHeight() - (window.innerHeight-300))+20) {
+              console.log($(window).scrollTop());
+          }
+      });
+   </script>
 @endsection
