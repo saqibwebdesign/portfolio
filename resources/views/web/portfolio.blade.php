@@ -71,7 +71,7 @@
          </div>
          <div class="row" id="loader_tray">
             <div class="col-12">
-               <img src="{{URl::to('/public/loader.gif')}}">
+               <a href="javascript:void(0)" class="custom-btn2 loadmore"> View more </a>
             </div>
          </div>
       </div>
@@ -122,26 +122,18 @@
 @section('addScript')
    <script type="text/javascript">
       let page = 1;
-      let status = 0;
-      let open = 0;
-      $(window).bind('scroll', function() {
-          if($(window).scrollTop() >= $('#portfolio_tray').offset().top + $('#portfolio_tray').outerHeight() - (window.innerHeight-300) && $(window).scrollTop() <= ($('#portfolio_tray').offset().top + $('#portfolio_tray').outerHeight() - (window.innerHeight-300))+20) {
-            if(status == 0 && open == 0){
-               page++; open = 1;
-               $('#loader_tray').css({display: 'block'});
-               $.get("{{route('web.category.loadmore', base64_encode($category->id))}}?page="+page, function(response){
-                  if(response.status == 1){
-
-                     $('#loader_tray').css({display: 'none'});
-                     $('#portfolio_tray').append(response.html);
-                  }else{
-                     $('#loader_tray').css({display: 'none'});
-                     status = 1;
-                  }
-                  open = 0;
-               });
+      $(document).on('click','.loadmore', function() {
+         page++;
+         $('#loader_tray a').html('<img src="{{URL::to('/public/btn-loader.gif')}}" style="width: 21px; margin: 0px 33px;"/>');
+         $.get("{{route('web.category.loadmore', base64_encode($category->id))}}?page="+page, function(response){
+            if(response.status == 1){
+               $('#portfolio_tray').append(response.html);
+               if(parseInt(response.count) < 9){
+                  $('#loader_tray').css({display: 'none'});
+               }
+               $('#loader_tray a').html('View more');
             }
-          }
+         });
       });
    </script>
 @endsection

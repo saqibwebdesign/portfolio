@@ -24,6 +24,9 @@
 #loader_tray .col-12 img {
     width: 200px;
 }
-#loader_tray {
-    display: none;
+#loader_tray a{
+    color: #fff !important;
+}
+#loader_tray a:hover{
+    color: #000 !important;
 }

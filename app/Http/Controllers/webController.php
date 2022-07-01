@@ -32,7 +32,7 @@ class webController extends Controller
         $portfolio = portfolio::where('category_id', $id)->orderBy('is_featured', 'desc')->paginate(9);
         if(count($portfolio) !== 0){
             $html = view('web.response.portfolio', ['portfolio' => $portfolio])->render();
-            return response()->json(['status' => 1, 'html' => $html]);
+            return response()->json(['status' => 1, 'count' => count($portfolio), 'html' => $html]);
         }else{
             return response()->json(['status' => 0, 'message' => 'No More Portfolio Available.']);
         }
