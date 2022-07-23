@@ -60,13 +60,13 @@
                </div>
                <div class="navbar-custom">
                   <div class="menu-item">
-                     <a href=""> ABOUT ME </a>   
+                     <a href="{{route('web.about')}}"> ABOUT ME </a>   
                   </div>
                   <div class="menu-item">
-                     <a href=""> SERVICES </a>   
+                     <a href="{{route('web.services')}}"> SERVICES </a>   
                   </div>
                   <div class="menu-item">
-                     <a href=""> CONTACT US </a>   
+                     <a href="{{route('web.contact')}}"> CONTACT US </a>   
                   </div>
                   <div class="menu-item">
                      <a href=""> PORTFOLIO </a>   

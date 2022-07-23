@@ -19,6 +19,9 @@ use App\Http\Controllers\webController;
 
 
 Route::get('/', [webController::class, 'index'])->name('web.home');
+Route::get('/about', [webController::class, 'about'])->name('web.about');
+Route::get('/services', [webController::class, 'services'])->name('web.services');
+Route::get('/contact', [webController::class, 'contact'])->name('web.contact');
 Route::get('/category/{category}', [webController::class, 'category'])->name('web.category');
 Route::get('/category/loadmore/{id}', [webController::class, 'categoryLoadMore'])->name('web.category.loadmore');
 

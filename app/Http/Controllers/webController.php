@@ -14,6 +14,16 @@ class webController extends Controller
         return view('web.index')->with($data);
     }
 
+    function about(){
+        return view('web.about');
+    }
+    function services(){
+        return view('web.services');
+    }
+    function contact(){
+        return view('web.contact');
+    }
+
     function category($category){
         $cat = urldecode($category);
         $data['category'] = categories::where('name', $cat)->first();
