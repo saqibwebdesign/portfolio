@@ -21,7 +21,7 @@
       <div class="row center-row1">
          <div class="col-md-7 col-lg-7 col-sm-12 col-12 order-lg-1 order-md-1 order-sm-1 order-1">
             <div class="custom-image4">
-               <img src="{{URL::to('/public/website/')}}/images/service-consulting.png"> 
+               <img src="{{URL::to('/public/website/')}}/images/service-consulting.PNG"> 
             </div>
          </div>
          <div class="col-md-5 col-lg-5 col-sm-12 col-12 order-lg-2 order-md-2 order-sm-2 order-2">
@@ -44,7 +44,7 @@
       <div class="row center-row1">
          <div class="col-md-7 col-lg-7 col-sm-12 col-12 order-lg-2 order-md-2 order-sm-1 order-1">
             <div class="custom-image4">
-               <img src="{{URL::to('/public/website/')}}/images/service-web.png"> 
+               <img src="{{URL::to('/public/website/')}}/images/service-web.PNG"> 
             </div>
          </div>
          <div class="col-md-5 col-lg-5 col-sm-12 col-12 order-lg-1 order-md-1 order-sm-2 order-2">
@@ -68,7 +68,7 @@
       <div class="row center-row1">
          <div class="col-md-7 col-lg-7 col-sm-12 col-12 order-lg-1 order-md-1 order-sm-1 order-1">
             <div class="custom-image4">
-               <img src="{{URL::to('/public/website/')}}/images/service-mobileapps.png"> 
+               <img src="{{URL::to('/public/website/')}}/images/service-mobileapps.PNG"> 
             </div>
          </div>
          <div class="col-md-5 col-lg-5 col-sm-12 col-12 order-lg-2 order-md-2 order-sm-2 order-2">
@@ -94,7 +94,7 @@
          <div class="row">
             <div class="col-md-6 col-lg-6 col-sm-12 col-12 m-b-60">
                <div class="custom-image5">
-                  <img src="{{URL::to('/public/website/')}}/images/service-ui-design.png">  
+                  <img src="{{URL::to('/public/website/')}}/images/service-ui-design.PNG">  
                </div>
                <div class="detail-text3">
                   <h3 class="col-black"> UX UI Design </h3>
@@ -104,7 +104,7 @@
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12 col-12 m-b-60">
                <div class="custom-image5">
-                  <img src="{{URL::to('/public/website/')}}/images/service-blockchain.png">  
+                  <img src="{{URL::to('/public/website/')}}/images/service-blockchain.PNG">  
                </div>
                <div class="detail-text3">
                   <h3 class="col-black"> Blockchain development </h3>
@@ -114,7 +114,7 @@
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12 col-12 m-b-60">
                <div class="custom-image5">
-                  <img src="{{URL::to('/public/website/')}}/images/service-ecommerce.png">  
+                  <img src="{{URL::to('/public/website/')}}/images/service-ecommerce.PNG">  
                </div>
                <div class="detail-text3">
                   <h3 class="col-black"> eCommerce </h3>
@@ -124,7 +124,7 @@
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12 col-12 m-b-60">
                <div class="custom-image5">
-                  <img src="{{URL::to('/public/website/')}}/images/service-software-development.png">  
+                  <img src="{{URL::to('/public/website/')}}/images/service-software-development.PNG">  
                </div>
                <div class="detail-text3">
                   <h3 class="col-black"> Custom software development </h3>
@@ -143,7 +143,7 @@
       <div class="row center-row1">
          <div class="col-md-7 col-lg-7 col-sm-12 col-12 order-lg-1 order-md-1 order-sm-1 order-1">
             <div class="custom-image4">
-               <img src="{{URL::to('/public/website/')}}/images/service-technology.png"> 
+               <img src="{{URL::to('/public/website/')}}/images/service-technology.PNG"> 
             </div>
          </div>
          <div class="col-md-5 col-lg-5 col-sm-12 col-12 order-lg-2 order-md-2 order-sm-2 order-2">
