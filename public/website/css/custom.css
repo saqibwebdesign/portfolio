@@ -1829,10 +1829,7 @@ div#demo-upload {
 
 /*Time Slot Booking CSS*/
 
-
-.wrapper {
-  padding: 0 10% 10% 10%;
-}
+ 
 .wrapper .timepicker-cf {
   height: 60px;
   width: 100%;
@@ -2126,8 +2123,9 @@ div#demo-upload {
   transition: all 0.2s ease-in-out;
 }
 #calendar .ui-datepicker .ui-datepicker-calendar .ui-datepicker-current-day {
-  background: #dbdbdb;
-  border-bottom: 2px solid #353c42;
+    background: #5000ff;
+    border-bottom: none;
+    border-radius: 5px;
 }
 #calendar .ui-datepicker .ui-datepicker-calendar .ui-datepicker-current-day.open {
   margin-bottom: 100px;
@@ -2152,9 +2150,55 @@ div#demo-upload {
   }
 }
 
+#calendar .ui-datepicker {
+    padding: 20px 30px;
+    max-width: 500px;
+    float: left;
+    margin-bottom: 20px;
+}
+.inner-wrap {
+    padding: 0px;
+    max-width: 500px;
+    margin-bottom: 35px;
+}
+.wrapper .timepicker {
+    transform: translate(0px, -170px);
+    max-width: 500px;
+}
 
+#calendar .ui-datepicker .ui-datepicker-calendar .ui-datepicker-current-day a {
+    color: white;
+}
 
+#calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-next::after {
+    content: ">";
+    font-family: cursive;
+    font-size: 20px !important;
+    color: black;
+    background: #dddee1 !important;
+    width: 22px !important;
+    height: 22px !important;
+    display: inline-block;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 100%;
+}
 
+#calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-prev::before {
+
+    content: "<";
+    font-family: cursive;
+    font-size: 20px !important;
+    color: black;
+    background: #dddee1 !important;
+    width: 22px !important;
+    height: 22px !important;
+    display: inline-block;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 100%;
+
+}
 
 
 /*Media Queries Of Website*/

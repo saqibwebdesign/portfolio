@@ -120,6 +120,56 @@
                         <div class="step-head m-t-10">
                            <h4> 4. Schedule a call with our tech expert. Get a detailed tech consultation for free! </h4>
                         </div>
+
+                        <div class="block-element">
+                        <div class="wrapper">
+  
+  <div id="calendar">
+   
+    <div class="monthChange"></div>
+  </div>
+  
+  <div class="inner-wrap">
+  
+  
+ 
+      
+  
+      
+      <div class="appointment-time request">
+       Your Appointment Time
+        <span>on</span>
+        <span class="day"></span>
+        <span>at</span>
+        <span class="time"></span>
+        <div class="sendRequest"></div>
+      </div>
+ 
+
+  </div>
+  
+  <div class='timepicker'>
+    <div class="owl">
+      <div>04:00 PM</div>
+      <div>05:00 PM</div>
+      <div>06:00 PM</div>
+      <div>07:00 PM</div>
+      <div>08:00 PM </div>
+      <div>09:00 PM</div>
+      <div>10:00 PM</div>
+      <div>11:00 PM</div>
+      <div>12:00 PM</div>
+      <div>01:00 AM</div>
+      <div>02:00 AM</div>
+   
+    </div>
+    <div class="fade-l"></div>
+    <div class="fade-r"></div>
+  </div>
+    
+</div>   
+                        </div>
+
                         <div class="block-element">
                            <input type="submit" value="SUBMIT" class="submit-btn2" name="">   
                         </div>

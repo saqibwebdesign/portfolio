@@ -45,13 +45,13 @@
                </div>
                <div class="navbar-custom">
                   <div class="menu-item">
-                     <a href="{{route('web.about')}}"> ABOUT ME </a>   
+                     <a href=""> ABOUT ME </a>   
                   </div>
                   <div class="menu-item">
-                     <a href="{{route('web.services')}}"> SERVICES </a>   
+                     <a href=""> SERVICES </a>   
                   </div>
                   <div class="menu-item">
-                     <a href="{{route('web.contact')}}"> CONTACT US </a>   
+                     <a href=""> CONTACT US </a>   
                   </div>
                   <div class="menu-item">
                      <a href=""> PORTFOLIO </a>   
@@ -182,6 +182,8 @@
       <script src="{{URL::to('/public/website/')}}/js/bootstrap.min.js"> </script>
       <script src="{{URL::to('/public/website/')}}/js/slick-slider.js"> </script>
       <script src="{{URL::to('/public/website/')}}/js/functions.js"> </script>
+      <script src="{{URL::to('/public/website/')}}/js/jquery-ui.min.js"></script>
+      <script src="{{URL::to('/public/website/')}}/js/owl.carousel.min.js"></script>
       <!-- Fancybox Gallery -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
       @yield('addScript')
