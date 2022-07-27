@@ -10,7 +10,7 @@
    <div class="container">
       <div class="block-element service-banner-text">
          <h5 class="col-black1"> OUR SERVICES </h5>
-         <h3 class="col-black1"> Startup or a Fortune 500 company, Unified Infotech will act as your consultant and development partners to transform your idea into success. Take advantage of our full-service capabilities. </h3>
+         <h3 class="col-black1"> Startup or a Fortune 500 company, I act as your consultant and development partner to transform your idea into success. Take advantage of my full-service capabilities. </h3>
       </div>
    </div>
 </section>
@@ -27,7 +27,7 @@
          <div class="col-md-5 col-lg-5 col-sm-12 col-12 order-lg-2 order-md-2 order-sm-2 order-2">
             <div class="detail-text3">
                <h3 class="col-black"> Consulting </h3>
-               <p class="col-grey3"> We can help your idea get visibility with putting up the right development and design strategy in this crowded market with our consulting expertise. </p>
+               <p class="col-grey3"> I can help your idea get visibility by putting up the right development and design strategy in this crowded market with my consulting expertise. </p>
                <ul class="list-3">
                   <li> <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Enterprise </a> </li>
                   <li> <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Startup </a> </li>
@@ -50,7 +50,7 @@
          <div class="col-md-5 col-lg-5 col-sm-12 col-12 order-lg-1 order-md-1 order-sm-2 order-2">
             <div class="detail-text3">
                <h3 class="col-black"> Web </h3>
-               <p class="col-grey3"> We understand the science of enhancing user experience with a combination of human-centric approach and development ingenuity.  </p>
+               <p class="col-grey3"> I can understand the science of enhancing user experience with a combination of a human-centric approach and development ingenuity. </p>
                <ul class="list-3">
                   <li> <a href="{{URL::to('/category/Website+Dev')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Web app development </a> </li>
                   <li> <a href="{{URL::to('/category/Website+Design')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Web design </a> </li>
@@ -74,7 +74,7 @@
          <div class="col-md-5 col-lg-5 col-sm-12 col-12 order-lg-2 order-md-2 order-sm-2 order-2">
             <div class="detail-text3">
                <h3 class="col-black"> Mobile Apps </h3>
-               <p class="col-grey3"> Leveraging mobility to bring business stability and visibility for you, we make your product next gen ready with the best of technology. </p>
+               <p class="col-grey3"> Leveraging mobility to bring business stability and visibility for you, I'll make your product next-gen ready with the best of technology. </p>
                <ul class="list-3">
                   <li> <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i>  iOS app development </a> </li>
                   <li> <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i>  Android app development </a> </li>
@@ -98,7 +98,7 @@
                </div>
                <div class="detail-text3">
                   <h3 class="col-black"> NFT Design </h3>
-                  <p class="col-grey"> Turn to Unified Infotech’s extensive design expertise combining human-centered design with a story weaved to drive ROI. </p>
+                  <p class="col-grey"> I drive all aspects of marketing strategies by setting up disruptive techniques and solutions according to the goals and peculiarities of your token. </p>
                   <a href="{{URL::to('/category/NFT+Website')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Learn More </a>
                </div>
             </div>
@@ -108,7 +108,8 @@
                </div>
                <div class="detail-text3">
                   <h3 class="col-black"> Social Media </h3>
-                  <p class="col-grey"> We take pride in building secure and powerful Blockchain applications- from smart contracts to cryptocurrencies. </p>
+                  <p class="col-grey"> A Collection of the best Social Media Marketing Agencies for Web,
+Search Engine Marketing, Instagram, Facebook, SnapChat, Facebook, Blogs and more </p>
                   <a href="{{URL::to('/category/Social+Media')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Learn More </a>
                </div>
             </div>
@@ -118,7 +119,7 @@
                </div>
                <div class="detail-text3">
                   <h3 class="col-black"> Website Design </h3>
-                  <p class="col-grey"> Make your business online market ready with our distinctive ecommerce web and app development solutions. </p>
+                  <p class="col-grey"> I combine the five dimensions of interaction design—words, visuals, spatial layouts, time, and object behavior—into one smooth experience to help you create the best possible website design. </p>
                   <a href="{{URL::to('/category/Website+Design')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Learn More </a>
                </div>
             </div>
@@ -127,8 +128,8 @@
                   <img src="{{URL::to('/public/website/')}}/images/service-software-development.PNG">  
                </div>
                <div class="detail-text3">
-                  <h3 class="col-black"> Dashboard Design </h3>
-                  <p class="col-grey"> Web or mobile, we have devised the best custom software development solution following agile methodology. </p>
+                  <h3 class="col-black"> Dashboard  </h3>
+                  <p class="col-grey"> I develop dashboards for you that are customized as per your requirements and are full of features that help you align your business data and lead to business growth by making efficient and strategic use of your data </p>
                   <a href="{{URL::to('/category/Dashboard+Design')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Learn More </a>
                </div>
             </div>
@@ -148,10 +149,13 @@
          </div>
          <div class="col-md-5 col-lg-5 col-sm-12 col-12 order-lg-2 order-md-2 order-sm-2 order-2">
             <div class="detail-text3">
-               <h3 class="col-black"> Technology </h3>
-               <p class="col-grey3"> Check out what leading technologies we work on to create elegant, robust and scalable application to move your business forward. </p>
+               <h3 class="col-black"> Print Media </h3>
+               <p class="col-grey3"> At Print Media Services, I believe our people are the essential difference to providing the reliability of service and consistency of quality which our clients expect. </p>
                <ul class="list-3">
-                  <li> <a href="{{URL::to('/category/Print+Media')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Laravel </a> </li>
+                  <li> <a href="{{URL::to('/category/Print+Media')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i>    Letter Heads </a> </li>
+                   <li> <a href="{{URL::to('/category/Print+Media')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i>   Business Cards </a> </li>
+                    <li> <a href="{{URL::to('/category/Print+Media')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i>    Flyers </a> </li>
+                     <li> <a href="{{URL::to('/category/Print+Media')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i>    Brouchers </a> </li>
                   
                </ul>
             </div>

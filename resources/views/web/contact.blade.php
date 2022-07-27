@@ -96,7 +96,7 @@
                                        <div id="dropzone">
                                           <div id="demo-upload" action="/upload">
                                              <div class="dz-message needsclick">    
-                                             <i class="fa fa-file-upload"> </i>   Drag images or browse to upload (optional) 
+                                                <i class="fa fa-file-upload"> </i>   Drag images or browse to upload (optional) 
                                              </div>
                                           </div>
                                        </div>
@@ -120,63 +120,60 @@
                         <div class="step-head m-t-10">
                            <h4> 4. Schedule a call with our tech expert. Get a detailed tech consultation for free! </h4>
                         </div>
-
                         <div class="block-element">
-                        <div class="wrapper">
-  
-  <div id="calendar">
-   
-    <div class="monthChange"></div>
-  </div>
-
-  
-  <div class='timepicker'>
-   <div class="time-selector">
-   <h5> Select Time </h5>   
-   </div>
-
-    <div class="owl">
-      <div>04:00 PM</div>
-      <div>05:00 PM</div>
-      <div>06:00 PM</div>
-      <div>07:00 PM</div>
-      <div>08:00 PM </div>
-      <div>09:00 PM</div>
-      <div>10:00 PM</div>
-      <div>11:00 PM</div>
-      <div>12:00 PM</div>
-      <div>01:00 AM</div>
-      <div>02:00 AM</div>
-   
-    </div>
-  <!--   <div class="fade-l"></div>
-    <div class="fade-r"></div> -->
-  </div>
-
-
-
-  <div class="inner-wrap">
-  
-  
- 
-      
-  
-      
-      <div class="appointment-time request">
-       Your Appointment Time
-        <span>on</span>
-        <span class="day"></span>
-        <span>at</span>
-        <span class="time"></span>
-        <div class="sendRequest"></div>
-      </div>
- 
-
-  </div>
-    
-</div>   
+                           <div class="wrapper">
+                              <div id="calendar">
+                                 <div class="monthChange"></div>
+                              </div>
+                              <!--   <div class='timepicker'>
+                                 <div class="time-selector">
+                                 <h5> Select Time </h5>   
+                                 </div>
+                                 
+                                 <div class="owl">
+                                    <div>04:00 PM</div>
+                                    <div>05:00 PM</div>
+                                    <div>06:00 PM</div>
+                                    <div>07:00 PM</div>
+                                    <div>08:00 PM </div>
+                                    <div>09:00 PM</div>
+                                    <div>10:00 PM</div>
+                                    <div>11:00 PM</div>
+                                    <div>12:00 PM</div>
+                                    <div>01:00 AM</div>
+                                    <div>02:00 AM</div>
+                                 
+                                  </div>  
+                                 <div class="fade-l"></div>
+                                  <div class="fade-r"></div> 
+                                 </div> -->
+                              <div class="block-element">
+                                 <div class="time-selector">
+                                    <h5> Select Time </h5>
+                                 </div>
+                                 <div class="form-field4">
+                                    <select class="field-style4">
+                                       <option> 04:00 PM </option>
+                                       <option> 04:00 PM </option>
+                                       <option> 04:00 PM </option>
+                                       <option> 04:00 PM </option>
+                                       <option> 04:00 PM </option>
+                                       <option> 04:00 PM </option>
+                                    </select>
+                                 </div>
+                              </div>
+                              <div class="inner-wrap">
+                                 <div class="appointment-time request">
+                                    Your Appointment Time
+                                    <span>on</span>
+                                    <span class="day"></span>
+                                    <span>at</span>
+                                    <span class="time"></span>
+                                    <div class="sendRequest"></div>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-
                         <div class="block-element">
                            <input type="submit" value="SUBMIT" class="submit-btn2" name="">   
                         </div>
@@ -292,20 +289,20 @@
    }
    }
    
-
-
-
-
+   
+   
+   
+   
    var time;
-var day;
-var month;
-var year;
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-var center;
-
-// remove border if the selected date is today's date
-function todayEqualActive(){
-  setTimeout(function(){
+   var day;
+   var month;
+   var year;
+   var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+   var center;
+   
+   // remove border if the selected date is today's date
+   function todayEqualActive(){
+   setTimeout(function(){
     if($(".ui-datepicker-current-day").hasClass("ui-datepicker-today")){
       $(".ui-datepicker-today")
         .children(".ui-state-default")
@@ -316,20 +313,20 @@ function todayEqualActive(){
         .children(".ui-state-default")
         .css("border-bottom", "2px solid rgba(53,60,66,0.5)");
     }
-  }, 20);
-}
-
-// call the above function on document ready
-todayEqualActive();
-
-$('#calendar').datepicker({
-  inline: true,
-  firstDay: 1,
-  showOtherMonths: true,
-  onChangeMonthYear: function(){
+   }, 20);
+   }
+   
+   // call the above function on document ready
+   todayEqualActive();
+   
+   $('#calendar').datepicker({
+   inline: true,
+   firstDay: 1,
+   showOtherMonths: true,
+   onChangeMonthYear: function(){
     todayEqualActive();
-  },
-  onSelect: function(dateText, inst){
+   },
+   onSelect: function(dateText, inst){
     var date = $(this).datepicker('getDate'),
     day  = date.getDate(),
     month = date.getMonth() + 1,
@@ -340,7 +337,7 @@ $('#calendar').datepicker({
     $(".request .day").text(monthName + " " + day);
     
     todayEqualActive();    
-
+   
     $(".request").removeClass("disabled");
     
     var index;
@@ -386,12 +383,12 @@ $('#calendar').datepicker({
     center = $(".owl-stage").find(".center");
     center.prev("div").addClass("center-n");
     center.next("div").addClass("center-n");
-  }
-});
-
-// if the inputs arent empty force ":focus state"
-$(".form-name input").each(function(){
-  $(this).keyup(function() {
+   }
+   });
+   
+   // if the inputs arent empty force ":focus state"
+   $(".form-name input").each(function(){
+   $(this).keyup(function() {
     if (this.value) {
       $(this).siblings("label").css({
         'font-size': '0.8em',
@@ -403,39 +400,39 @@ $(".form-name input").each(function(){
     else{
       $(this).siblings("label").removeAttr("style");
     }
-  });
-});
-
-$(".timepicker").on('click', '.owl-next', function(){
-  time = $(".owl-stage .center").text();
-  $(".request .time").text(time);
-  
-  $(".owl-item").removeClass("center-n");
-  center = $(".owl-stage").find(".center");
-  center.prev("div").addClass("center-n");
-  center.next("div").addClass("center-n");
-});
-
-$(".timepicker").on('click', '.owl-prev', function(){
-  time = $(".owl-stage .center").text();
-  $(".request .time").text(time);
-  
-  $(".owl-item").removeClass("center-n");
-  center = $(".owl-stage").find(".center");
-  center.prev("div").addClass("center-n");
-  center.next("div").addClass("center-n");
-});
-
-$('.owl').owlCarousel({
-  center: true,
-  loop: true,
-  items: 5,
-  dots: false,
-  nav: true,
-  navText: " ",
-  mouseDrag: false,
-  touchDrag: true,
-  responsive: {
+   });
+   });
+   
+   $(".timepicker").on('click', '.owl-next', function(){
+   time = $(".owl-stage .center").text();
+   $(".request .time").text(time);
+   
+   $(".owl-item").removeClass("center-n");
+   center = $(".owl-stage").find(".center");
+   center.prev("div").addClass("center-n");
+   center.next("div").addClass("center-n");
+   });
+   
+   $(".timepicker").on('click', '.owl-prev', function(){
+   time = $(".owl-stage .center").text();
+   $(".request .time").text(time);
+   
+   $(".owl-item").removeClass("center-n");
+   center = $(".owl-stage").find(".center");
+   center.prev("div").addClass("center-n");
+   center.next("div").addClass("center-n");
+   });
+   
+   $('.owl').owlCarousel({
+   center: true,
+   loop: true,
+   items: 5,
+   dots: false,
+   nav: true,
+   navText: " ",
+   mouseDrag: false,
+   touchDrag: true,
+   responsive: {
     0:{
       items:3
     },
@@ -445,37 +442,37 @@ $('.owl').owlCarousel({
     1200:{
       items:5
     }
-  }
-});
-
-$(document).on('click', '.ui-datepicker-next', function(e){
-  $(".timepicker-cf").hide(0);
-  $(".timepicker").css({
+   }
+   });
+   
+   $(document).on('click', '.ui-datepicker-next', function(e){
+   $(".timepicker-cf").hide(0);
+   $(".timepicker").css({
     'height': '0'
-  });
-  e.preventDefault();
-  $(".ui-datepicker").animate({
+   });
+   e.preventDefault();
+   $(".ui-datepicker").animate({
     "-webkit-transform":"translate(100%,0)"
-  }, 200);
-});
-
-$(document).on('click', '.ui-datepicker-prev', function(){
-  $(".timepicker-cf").hide(0);
-  $(".timepicker").css({
+   }, 200);
+   });
+   
+   $(document).on('click', '.ui-datepicker-prev', function(){
+   $(".timepicker-cf").hide(0);
+   $(".timepicker").css({
     'height': '0'
-  });
-  $(".ui-datepicker").animate({
+   });
+   $(".ui-datepicker").animate({
     'transform': 'translateX(-100%)'
-  }, 200);
-});
-
-$(window).on('resize', function(){
-  $(".timepicker").css('top', $(".timepicker-cf").offset().top - 2);
-});
-
-
-
-
-
+   }, 200);
+   });
+   
+   $(window).on('resize', function(){
+   $(".timepicker").css('top', $(".timepicker-cf").offset().top - 2);
+   });
+   
+   
+   
+   
+   
 </script>
 @endsection
