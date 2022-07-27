@@ -52,9 +52,9 @@
                <h3 class="col-black"> Web </h3>
                <p class="col-grey3"> We understand the science of enhancing user experience with a combination of human-centric approach and development ingenuity.  </p>
                <ul class="list-3">
-                  <li> <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Web app development </a> </li>
-                  <li> <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Web design </a> </li>
-                  <li> <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Progressive web apps </a> </li>
+                  <li> <a href="{{URL::to('/category/Website+Dev')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Web app development </a> </li>
+                  <li> <a href="{{URL::to('/category/Website+Design')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Web design </a> </li>
+                  <li> <a href="{{URL::to('/category/Mobile+App')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Progressive web apps </a> </li>
                </ul>
             </div>
          </div>
@@ -97,9 +97,9 @@
                   <img src="{{URL::to('/public/website/')}}/images/service-ui-design.PNG">  
                </div>
                <div class="detail-text3">
-                  <h3 class="col-black"> UX UI Design </h3>
+                  <h3 class="col-black"> NFT Design </h3>
                   <p class="col-grey"> Turn to Unified Infotech’s extensive design expertise combining human-centered design with a story weaved to drive ROI. </p>
-                  <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Learn More </a>
+                  <a href="{{URL::to('/category/NFT+Website')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Learn More </a>
                </div>
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12 col-12 m-b-60">
@@ -107,9 +107,9 @@
                   <img src="{{URL::to('/public/website/')}}/images/service-blockchain.PNG">  
                </div>
                <div class="detail-text3">
-                  <h3 class="col-black"> Blockchain development </h3>
+                  <h3 class="col-black"> Social Media </h3>
                   <p class="col-grey"> We take pride in building secure and powerful Blockchain applications- from smart contracts to cryptocurrencies. </p>
-                  <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Learn More </a>
+                  <a href="{{URL::to('/category/Social+Media')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Learn More </a>
                </div>
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12 col-12 m-b-60">
@@ -117,9 +117,9 @@
                   <img src="{{URL::to('/public/website/')}}/images/service-ecommerce.PNG">  
                </div>
                <div class="detail-text3">
-                  <h3 class="col-black"> eCommerce </h3>
+                  <h3 class="col-black"> Website Design </h3>
                   <p class="col-grey"> Make your business online market ready with our distinctive ecommerce web and app development solutions. </p>
-                  <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Learn More </a>
+                  <a href="{{URL::to('/category/Website+Design')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Learn More </a>
                </div>
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12 col-12 m-b-60">
@@ -127,9 +127,9 @@
                   <img src="{{URL::to('/public/website/')}}/images/service-software-development.PNG">  
                </div>
                <div class="detail-text3">
-                  <h3 class="col-black"> Custom software development </h3>
+                  <h3 class="col-black"> Dashboard Design </h3>
                   <p class="col-grey"> Web or mobile, we have devised the best custom software development solution following agile methodology. </p>
-                  <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Learn More </a>
+                  <a href="{{URL::to('/category/Dashboard+Design')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Learn More </a>
                </div>
             </div>
          </div>
@@ -151,10 +151,8 @@
                <h3 class="col-black"> Technology </h3>
                <p class="col-grey3"> Check out what leading technologies we work on to create elegant, robust and scalable application to move your business forward. </p>
                <ul class="list-3">
-                  <li> <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Laravel </a> </li>
-                  <li> <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Node.JS </a> </li>
-                  <li> <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> AngularJS </a> </li>
-                  <li> <a href="" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Magento  </a> </li>
+                  <li> <a href="{{URL::to('/category/Print+Media')}}" class="custom-btn5"> <i class="fa fa-arrow-right"> </i> Laravel </a> </li>
+                  
                </ul>
             </div>
          </div>

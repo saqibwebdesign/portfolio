@@ -1843,10 +1843,10 @@ div#demo-upload {
   overflow: hidden;
 }
 .wrapper .timepicker .owl, .wrapper .timepicker .owl-stage {
-  width: 100%;
-  height: 60px;
-  display: flex;
-  align-items: center;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
 }
 .wrapper .timepicker .owl .owl-item, .wrapper .timepicker .owl-stage .owl-item {
   font-size: 1.1em;
@@ -1902,23 +1902,17 @@ div#demo-upload {
   font-size: 1em;
 }
 .wrapper .owl-prev {
-  left: 20px;
+  left:  0px;
 }
 .wrapper .owl-prev:before {
   content: "";
   font-family: FontAwesome;
 }
-.wrapper .owl-prev:hover {
-  left: 18px;
-  transition: 0.2s ease-in-out;
-}
+ 
 .wrapper .owl-next {
-  right: 20px;
+  right:  0px;
 }
-.wrapper .owl-next:hover {
-  right: 18px;
-  transition: 0.2s ease-in-out;
-}
+ 
 .wrapper .owl-next:before {
   content: "";
   font-family: FontAwesome;
@@ -1928,19 +1922,16 @@ div#demo-upload {
   padding: 0 10%;
 }
 .inner-wrap .request {
-  width: 100%;
-  height: 50px;
-  text-align: left;
-  padding: 0 20px;
-  border: none;
-  background: #667483;
-  color: #fff;
-  font-weight: 600;
-  font-size: 1em;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-  position: relative;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 2px 0px;
+    border: none;
+    background: none;
+    color: #5000ff;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 2px;
 }
 .inner-wrap .request br {
   display: none;
@@ -2162,8 +2153,14 @@ div#demo-upload {
     margin-bottom: 35px;
 }
 .wrapper .timepicker {
-    transform: translate(0px, -170px);
-    max-width: 500px;
+    transform: translate(0px, 0px);
+    max-width: 100%;
+    width: 100%;
+    position: static;
+    margin-bottom: 20px;
+    background: none;
+    border-radius: 5px;
+    height: auto !important;
 }
 
 #calendar .ui-datepicker .ui-datepicker-calendar .ui-datepicker-current-day a {
@@ -2198,6 +2195,109 @@ div#demo-upload {
     text-align: center;
     border-radius: 100%;
 
+}
+
+
+.wrapper .timepicker .owl .owl-item, .wrapper .timepicker .owl-stage .owl-item {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px;
+    color: black !important;
+}
+
+.wrapper {
+    float: left;
+    width: 100%;
+    max-width: 500px;
+}
+
+tr.timepicker-cf {
+    height: 0px !important;
+}
+.time-selector {
+    display: block;
+    width: 100%;
+    margin-bottom:  0px !important;
+}
+
+.time-selector h5 {
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+}
+
+
+.wrapper .owl-next:before {
+ content: ">";
+    font-family: cursive;
+    font-size: 20px !important;
+    color: black;
+    background: #dddee1 !important;
+    width: 22px !important;
+    height: 22px !important;
+    display: inline-block;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+
+.wrapper .owl-prev:before {
+     content: "<";
+    font-family: cursive;
+    font-size: 20px !important;
+    color: black;
+    background: #dddee1 !important;
+    width: 22px !important;
+    height: 22px !important;
+    display: inline-block;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 100%;
+    
+}
+
+
+
+
+
+
+ .owl.owl-loaded {
+    position: relative;
+}
+
+.wrapper .owl-prev {
+    left: -5px;
+    top: 5px;
+}
+
+.wrapper .owl-next {
+    right: 5px;
+    top: 5px;
+}
+
+.wrapper .timepicker .owl .center, .wrapper .timepicker .owl-stage .center {
+    font-weight: 700 !important;
+    color: #5000ff !important;
+}
+
+
+.custom-btn6 {
+    background: #FFD300;
+    border: 1px solid #FFD300;
+    color: black;
+    font-weight: 600;
+    padding: 11px 25px;
+    letter-spacing: 0.6px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.custom-btn6:hover {
+    background: black;
+    border: 1px solid black;
+    color: white;
 }
 
 
@@ -3023,6 +3123,12 @@ footer {
     font-weight: 600;
     letter-spacing: 0.3px;
     font-size: 18px;
+}
+#calendar .ui-datepicker {
+    padding: 20px 10px;
+    max-width: 500px;
+    float: left;
+    margin-bottom: 20px;
 }
 }
 

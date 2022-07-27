@@ -128,7 +128,33 @@
    
     <div class="monthChange"></div>
   </div>
+
   
+  <div class='timepicker'>
+   <div class="time-selector">
+   <h5> Select Time </h5>   
+   </div>
+
+    <div class="owl">
+      <div>04:00 PM</div>
+      <div>05:00 PM</div>
+      <div>06:00 PM</div>
+      <div>07:00 PM</div>
+      <div>08:00 PM </div>
+      <div>09:00 PM</div>
+      <div>10:00 PM</div>
+      <div>11:00 PM</div>
+      <div>12:00 PM</div>
+      <div>01:00 AM</div>
+      <div>02:00 AM</div>
+   
+    </div>
+  <!--   <div class="fade-l"></div>
+    <div class="fade-r"></div> -->
+  </div>
+
+
+
   <div class="inner-wrap">
   
   
@@ -146,25 +172,6 @@
       </div>
  
 
-  </div>
-  
-  <div class='timepicker'>
-    <div class="owl">
-      <div>04:00 PM</div>
-      <div>05:00 PM</div>
-      <div>06:00 PM</div>
-      <div>07:00 PM</div>
-      <div>08:00 PM </div>
-      <div>09:00 PM</div>
-      <div>10:00 PM</div>
-      <div>11:00 PM</div>
-      <div>12:00 PM</div>
-      <div>01:00 AM</div>
-      <div>02:00 AM</div>
-   
-    </div>
-    <div class="fade-l"></div>
-    <div class="fade-r"></div>
   </div>
     
 </div>   
@@ -436,7 +443,7 @@ $('.owl').owlCarousel({
       items:5
     },
     1200:{
-      items:7
+      items:5
     }
   }
 });

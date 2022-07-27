@@ -263,7 +263,7 @@
                               <div class="detail-text2">
                                  <h5 class="col-white"> Discovery workshop </h5>
                                  <p class="col-white"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe. </p>
-                                 <a href="" class="custom-btn3"> GET IN TOUCH </a>
+                                 <a href="" class="custom-btn6"> GET IN TOUCH </a>
                               </div>
                            </div>
                         </div>
@@ -279,7 +279,7 @@
                               <div class="detail-text2">
                                  <h5 class="col-white"> Planning </h5>
                                  <p class="col-white"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe. </p>
-                                 <a href="" class="custom-btn3"> GET IN TOUCH </a>
+                                 <a href="" class="custom-btn6"> GET IN TOUCH </a>
                               </div>
                            </div>
                         </div>
@@ -295,7 +295,7 @@
                               <div class="detail-text2">
                                  <h5 class="col-white">  Development </h5>
                                  <p class="col-white"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe. </p>
-                                 <a href="" class="custom-btn3"> GET IN TOUCH </a>
+                                 <a href="" class="custom-btn6"> GET IN TOUCH </a>
                               </div>
                            </div>
                         </div>
@@ -311,7 +311,7 @@
                               <div class="detail-text2">
                                  <h5 class="col-white"> Design </h5>
                                  <p class="col-white"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe. </p>
-                                 <a href="" class="custom-btn3"> GET IN TOUCH </a>
+                                 <a href="" class="custom-btn6"> GET IN TOUCH </a>
                               </div>
                            </div>
                         </div>
@@ -327,7 +327,7 @@
                               <div class="detail-text2">
                                  <h5 class="col-white"> Planning </h5>
                                  <p class="col-white"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe. </p>
-                                 <a href="" class="custom-btn3"> GET IN TOUCH </a>
+                                 <a href="" class="custom-btn6"> GET IN TOUCH </a>
                               </div>
                            </div>
                         </div>
@@ -343,7 +343,7 @@
                               <div class="detail-text2">
                                  <h5 class="col-white"> Discovery Workshop  </h5>
                                  <p class="col-white"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe. </p>
-                                 <a href="" class="custom-btn3"> GET IN TOUCH </a>
+                                 <a href="" class="custom-btn6"> GET IN TOUCH </a>
                               </div>
                            </div>
                         </div>
