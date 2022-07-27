@@ -105,8 +105,8 @@
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12 col-12">
                <div class="detail-text">
-                  <h5 class="col-black1"> We proactively consult, design, develop & scale robust web, mobile & custom software solutions, that fuel innovation & deliver digital success! </h5>
-                  <p class="col-black1"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe. </p>
+                  <h5 class="col-black1"> I proactively consult, design, develop & scale robust web, mobile & custom software solutions, that fuel innovation & deliver digital success! </h5>
+                  <p class="col-black1"> I believe that every project is an important milestone in my journey. So I position myselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500s, SMEs, and start-ups’s around the globe. </p>
                   <a href="" class="custom-btn3"> CONNECT WITH EXPERTS </a>
                </div>
             </div>
@@ -120,7 +120,7 @@
    <div class="container">
       <div class="block-element">
          <div class="sec-head3 text-center">
-            <h3 class="col-black1"> Our work does the talking.. </h3>
+            <h3 class="col-black1"> My work does the talking.. </h3>
          </div>
       </div>
    </div>
@@ -138,8 +138,8 @@
          <div class="col-md-6 col-lg-6 col-sm-12 col-12">
             <div class="detail-text2 m-b-20">
                <span class="text-tag1"> eSocial </span> 
-               <h5 class="col-black3 m-b-20"> Mobile App Re-design for one of Canada’s leading Social media Company during COVID-19 Pandemic. </h5>
-               <p class="col-black2"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe.  </p>
+               <h5 class="col-black3 m-b-20"> CUSTOM MOBILE APPLICATION DEVELOPMENT SERVICES </h5>
+               <p class="col-black2"> Leverage my decade-long experience in mobile apps development to create seamless mobile experiences your users will enjoy and get back to, again and again  </p>
             </div>
             <div class="buttons-holder1">
                <a href="" class="custom-btn4"> CONTACT US </a>
@@ -156,38 +156,38 @@
       <div class="row">
          <div class="col-md-4 col-lg-4 col-sm-12 col-12 m-b-60">
             <div class="services-head">
-               <h3 class="col-white"> <b> Our </b> Services </h3>
+               <h3 class="col-white"> <b> My </b> Services </h3>
                <p class="col-white"> End-to-end expertise across the digital ecosystem </p>
             </div>
          </div>
          <div class="col-md-4 col-lg-4 col-sm-6 col-12 m-b-60">
             <div class="service-box">
                <h5 class="col-white"> Digital <br/> Consulting </h5>
-               <p class="col-white"> Immersive mobile app solutions, that transforms businesses and deliver great customer experience. </p>
+               <p class="col-white"> I develop digital marketing strategies for my clients that result in targeted, relevant, highly customized and cost-effective solutions that deliver measurable returns on your investments. </p>
             </div>
          </div>
          <div class="col-md-4 col-lg-4 col-sm-6 col-12 m-b-60">
             <div class="service-box">
-               <h5 class="col-white"> Web Design & <br/> Development </h5>
-               <p class="col-white"> Immersive mobile app solutions, that transforms businesses and deliver great customer experience. </p>
+               <h5 class="col-white"> Web Design & <br/>Development </h5>
+               <p class="col-white"> Put your business online and get more sales & leads with the quality and professional web development services. I have experience in all facets of web development to help our clients reach their full digital potential. </p>
             </div>
          </div>
          <div class="col-md-4 col-lg-4 col-sm-6 col-12 m-b-60">
             <div class="service-box">
-               <h5 class="col-white"> Mobile App <br/> Solutions </h5>
-               <p class="col-white"> Immersive mobile app solutions, that transforms businesses and deliver great customer experience. </p>
+               <h5 class="col-white"> Mobile App <br/>  Solutions  </h5>
+               <p class="col-white"> I’ve experience in mobile apps development to create seamless mobile experiences your users will enjoy and get back to, again and again </p>
             </div>
          </div>
          <div class="col-md-4 col-lg-4 col-sm-6 col-12 m-b-60">
             <div class="service-box">
                <h5 class="col-white"> Custom Software <br/> Development </h5>
-               <p class="col-white"> Immersive mobile app solutions, that transforms businesses and deliver great customer experience. </p>
+               <p class="col-white"> Immersive mobile app solutions, that transform businesses and deliver great customer experience. </p>
             </div>
          </div>
          <div class="col-md-4 col-lg-4 col-sm-6 col-12 m-b-60">
             <div class="service-box">
                <h5 class="col-white"> UX/UI <br/> Design </h5>
-               <p class="col-white"> Immersive mobile app solutions, that transforms businesses and deliver great customer experience. </p>
+               <p class="col-white"> Let design become your competitive advantage. You can rely on my professional mobile and web design services to build a digital product that is practical, functional and beautiful at the same time. </p>
             </div>
          </div>
       </div>
@@ -240,12 +240,7 @@
                      <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#industry-category4" role="tab"> 4. Design </a>
                      </li>
-                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#industry-category5" role="tab"> 5. Planning </a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#industry-category6" role="tab"> 6. Discovery Workshop </a>
-                     </li>
+                  
                   </ul>
                </div>
             </div>
@@ -262,7 +257,7 @@
                            <div class="col-md-6 col-lg-6 col-sm-12 col-12">
                               <div class="detail-text2">
                                  <h5 class="col-white"> Discovery workshop </h5>
-                                 <p class="col-white"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe. </p>
+                                 <p class="col-white"> I believe that every project is an important milestone in our journey. So I  position myself as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500s, SMEs, and start-ups around the globe. </p>
                                  <a href="" class="custom-btn6"> GET IN TOUCH </a>
                               </div>
                            </div>
@@ -278,7 +273,7 @@
                            <div class="col-md-6 col-lg-6 col-sm-12 col-12">
                               <div class="detail-text2">
                                  <h5 class="col-white"> Planning </h5>
-                                 <p class="col-white"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe. </p>
+                                 <p class="col-white"> I believe that every project is an important milestone in our journey. So I  position myself as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500s, SMEs, and start-ups around the globe. </p>
                                  <a href="" class="custom-btn6"> GET IN TOUCH </a>
                               </div>
                            </div>
@@ -293,8 +288,8 @@
                            </div>
                            <div class="col-md-6 col-lg-6 col-sm-12 col-12">
                               <div class="detail-text2">
-                                 <h5 class="col-white">  Development </h5>
-                                 <p class="col-white"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe. </p>
+                                 <h5 class="col-white"> Development </h5>
+                                 <p class="col-white"> I believe that every project is an important milestone in our journey. So I  position myself as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500s, SMEs, and start-ups around the globe. </p>
                                  <a href="" class="custom-btn6"> GET IN TOUCH </a>
                               </div>
                            </div>
@@ -310,44 +305,14 @@
                            <div class="col-md-6 col-lg-6 col-sm-12 col-12">
                               <div class="detail-text2">
                                  <h5 class="col-white"> Design </h5>
-                                 <p class="col-white"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe. </p>
+                                 <p class="col-white"> I believe that every project is an important milestone in our journey. So I  position myself as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500s, SMEs, and start-ups around the globe. </p>
                                  <a href="" class="custom-btn6"> GET IN TOUCH </a>
                               </div>
                            </div>
                         </div>
                      </div>
-                     <div class="tab-pane fade" id="industry-category5" role="tabpanel">
-                        <div class="row center-row1">
-                           <div class="col-md-6 col-lg-6 col-sm-12 col-12">
-                              <div class="custom-image3">
-                                 <img src="{{URL::to('/public/website/')}}/images/about-design.png"> 
-                              </div>
-                           </div>
-                           <div class="col-md-6 col-lg-6 col-sm-12 col-12">
-                              <div class="detail-text2">
-                                 <h5 class="col-white"> Planning </h5>
-                                 <p class="col-white"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe. </p>
-                                 <a href="" class="custom-btn6"> GET IN TOUCH </a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="tab-pane fade" id="industry-category6" role="tabpanel">
-                        <div class="row center-row1">
-                           <div class="col-md-6 col-lg-6 col-sm-12 col-12">
-                              <div class="custom-image3">
-                                 <img src="{{URL::to('/public/website/')}}/images/about-mobileapp.png"> 
-                              </div>
-                           </div>
-                           <div class="col-md-6 col-lg-6 col-sm-12 col-12">
-                              <div class="detail-text2">
-                                 <h5 class="col-white"> Discovery Workshop  </h5>
-                                 <p class="col-white"> At Unified we believe that every project is an important milestone in our journey. So we position ourselves as a boutique digital agency, custom tailoring impactful digital solutions with industry best practices across the board, for Fortune 500's, SMEs, and Start-up’s around the globe. </p>
-                                 <a href="" class="custom-btn6"> GET IN TOUCH </a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
+                     
+                   
                   </div>
                </div>
             </div>

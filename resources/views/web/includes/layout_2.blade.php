@@ -75,7 +75,7 @@
                <div class="col-md-6 col-lg-6 col-sm-12 col-12">
                   <div class="sec-head1">
                      <h3 class="col-grey1 upper"> <b> Portfolio </b> that speak! </h3>
-                     <p class="col-grey1"> Some highlights of our <b> favorite projects </b> we've done for forward thinking <br/> clients. </p>
+                     <p class="col-grey1"> Some highlights of my <b> favorite projects </b> we've done for forward thinking <br/> clients.   </p>
                   </div>
                </div>
                <div class="col-md-6 col-lg-6 col-sm-12 col-12">
