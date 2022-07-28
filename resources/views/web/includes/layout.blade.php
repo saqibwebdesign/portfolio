@@ -66,10 +66,10 @@
                      <a href="{{route('web.services')}}"> SERVICES </a>   
                   </div>
                   <div class="menu-item">
-                     <a href="{{route('web.contact')}}"> CONTACT US </a>   
+                     <a href=""> PORTFOLIO </a>   
                   </div>
                   <div class="menu-item">
-                     <a href=""> PORTFOLIO </a>   
+                     <a href="{{route('web.contact')}}"> CONTACT US </a>   
                   </div>
                   <div class="menu-item ">
                      <a href="" class="custom-btn2 custom-btn22"> GET QUOTE </a>   

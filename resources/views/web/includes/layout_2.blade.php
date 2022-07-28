@@ -45,16 +45,16 @@
                </div>
                <div class="navbar-custom">
                   <div class="menu-item">
-                     <a href=""> ABOUT ME </a>   
+                     <a href="{{route('web.about')}}"> ABOUT ME </a>   
                   </div>
                   <div class="menu-item">
-                     <a href=""> SERVICES </a>   
-                  </div>
-                  <div class="menu-item">
-                     <a href=""> CONTACT US </a>   
+                     <a href="{{route('web.services')}}"> SERVICES </a>   
                   </div>
                   <div class="menu-item">
                      <a href=""> PORTFOLIO </a>   
+                  </div>
+                  <div class="menu-item">
+                     <a href="{{route('web.contact')}}"> CONTACT US </a>   
                   </div>
                   <div class="menu-item ">
                      <a href="" class="custom-btn2"> GET QUOTE </a>   
@@ -135,10 +135,10 @@
                   <div class="footer-list footer-list2">
                      <h3 class="footer-heading1"> QUICK LINKS </h3>
                      <ul>
-                        <li> <a href=""> About Us </a> </li>
-                        <li> <a href=""> Careers </a> </li>
+                        <li> <a href="{{route('web.about')}}"> About Me </a> </li>
+                        <li> <a href="{{route('web.services')}}"> Services </a> </li>
                         <li> <a href=""> Portfolio </a> </li>
-                        <li> <a href=""> Contact Us </a> </li>
+                        <li> <a href="{{route('web.contact')}}"> Contact Us </a> </li>
                      </ul>
                   </div>
                </div>
